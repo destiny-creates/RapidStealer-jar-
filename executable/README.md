@@ -169,4 +169,4 @@ $lsass      = "impersonate_lsass"
 
 ---
 
-*Analysis performed with NyxStrike AI on Parrot OS (air-gapped)*
+*Analysis performed on Parrot OS (air-gapped)*
