@@ -1,0 +1,79 @@
+  67404 RichEdit
+  67430 RichEdit20W
+  67510 .DEFAULT\Control Panel\International
+  67630 Control Panel\Desktop\ResourceLocale
+  70050 Software\Microsoft\Windows\CurrentVersion
+  70200 \Microsoft\Internet Explorer\Quick Launch
+  70410 #+3;CScs
+  70574 !1Aa
+ 101034 verifying installer: %d%%
+ 101120 Installer integrity check has failed. Common causes include
+ 101310 incomplete download and damaged media. Contact the
+ 101456 installer's author to obtain a new copy.
+ 101602 More information at:
+ 101654 http://nsis.sf.net/NSIS_Error
+ 101750 Error launching installer
+ 102034 ... %d%%
+ 102060 SeShutdownPrivilege
+ 102140 .tmp
+ 102160 ~nsu
+ 102174  _?=
+ 102220 TEMP
+ 102244 \Temp
+ 102260  /D=
+ 102274 NCRC
+ 102310 NSIS Error
+ 102340 Error writing temporary file. Make sure your temp folder is valid.
+ 102576 @_Nb
+ 102610 .exe
+ 102624 open
+ 102640 %u.%u%s%s
+ 103514 \*.*
+ 103574 *?|<>/":
+ 103620 %s%S.dll
+ 113566 MS Shell Dlg
+ 114226 MS Shell Dlg
+ 115236 MS Shell Dlg
+ 115360 msctls_progress32
+ 115520 SysListView32
+ 115626 MS Shell Dlg
+ 116020 Please wait while Setup is loading...
+ 117704 msctls_progress32
+ 120044 SysListView32
+ 120324 Please wait while Setup is loading...
+ 122230 msctls_progress32
+ 122370 SysListView32
+ 122650 Please wait while Setup is loading...
+ 124600 msctls_progress32
+ 124740 SysListView32
+ 125230 Please wait while Setup is loading...
+ 127114 msctls_progress32
+ 127254 SysListView32
+ 127534 Please wait while Setup is loading...
+ 127726 MS Shell Dlg
+ 130366 MS Shell Dlg
+ 131376 MS Shell Dlg
+ 131520 msctls_progress32
+ 131660 SysListView32
+ 131766 MS Shell Dlg
+ 132160 Please wait while Setup is loading...
+ 132336 VS_VERSION_INFO
+ 132472 StringFileInfo
+ 132536 040904e4
+ 132566 CompanyName
+ 132620 SunomoGames Inc.
+ 132672 FileDescription
+ 132734 Program for Windows
+ 133012 FileVersion
+ 133044 1.0.0
+ 133066 LegalCopyright
+ 133124 Copyright 
+ 133152  2026 SunomoGames Inc.
+ 133236 ProductName
+ 133270 KumoriClient
+ 133332 ProductVersion
+ 133370 1.0.0
+ 133412 VarFileInfo
+ 133452 Translation
+660106711 KumoriClien
+660113256 KumoriClien

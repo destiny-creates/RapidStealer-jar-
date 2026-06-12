@@ -1,0 +1,54 @@
+StdUtils.dll
+  Size  : 102400 bytes
+  MD5   : c6a6e03f77c313b267498515488c5740
+  SHA256: b72e9013a6204e9f01076dc38dabbf30870d44dfc66962adbf73619d4331601e
+
+System.dll
+  Size  : 12288 bytes
+  MD5   : 0d7ad4f45dc6f5aa87f606d0331c6901
+  SHA256: 3eb38ae99653a7dbc724132ee240f6e5c4af4bfe7c01d31d23faf373f9f2eaca
+
+UAC.dll
+  Size  : 14848 bytes
+  MD5   : adb29e6b186daa765dc750128649b63d
+  SHA256: 2f7f8fc05dc4fd0d5cda501b47e4433357e887bbfed7292c028d99c73b52dc08
+
+Uninstall KumoriClient.exe
+  Size  : 167608 bytes
+  MD5   : 648a58343b001784ef6fa9d73bd58ab6
+  SHA256: 498fe98131e48e904c5c8b3ec4a41e2f53828d55eed3b59606a8c5b6b3067992
+
+WinShell.dll
+  Size  : 3072 bytes
+  MD5   : 1cc7c37b7e0c8cd8bf04b6cc283e1e56
+  SHA256: 9be85b986ea66a6997dde658abe82b3147ed2a1a3dcb784bb5176f41d22815a6
+
+app-64.7z
+  Size  : 112734005 bytes
+  MD5   : fd71d82c16f17d07b679d26f4574cec5
+  SHA256: 18d9e36aff2d8af6a384872fc1d35b11b0c6a4baa628e60a0403499c0dc358d2
+
+modern-wizard.bmp
+  Size  : 154544 bytes
+  MD5   : 52ff52eee3b944b862c11c268a02c196
+  SHA256: 2079f7a3eba60e0d9ee827a7208aa052a71b384873b641de5e299aeb8e733109
+
+nsDialogs.dll
+  Size  : 9728 bytes
+  MD5   : 466179e1c8ee8a1ff5e4427dbb6c4a01
+  SHA256: 1e40211af65923c2f4fd02ce021458a7745d28e2f383835e3015e96575632172
+
+nsExec.dll
+  Size  : 6656 bytes
+  MD5   : ec0504e6b8a11d5aad43b296beeb84b2
+  SHA256: 5d9ceb1ce5f35aea5f9e5a0c0edeeec04dfefe0c77890c80c70e98209b58b962
+
+nsProcess.dll
+  Size  : 4608 bytes
+  MD5   : f0438a894f3a7e01a4aae8d1b5dd0289
+  SHA256: 30c6c3dd3cc7fcea6e6081ce821adc7b2888542dae30bf00e881c0a105eb4d11
+
+nsis7z.dll
+  Size  : 434176 bytes
+  MD5   : 80e44ce4895304c6a3a831310fbf8cd0
+  SHA256: b393f05e8ff919ef071181050e1873c9a776e1a0ae8329aefff7007d0cadf592

